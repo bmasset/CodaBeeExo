@@ -19,7 +19,6 @@ class MenuController: MenuViewController {
     var items = ["Fil d'actualité", "Vidéos", "Forum"]
     var beeUser: BeeUser?
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .darkGray

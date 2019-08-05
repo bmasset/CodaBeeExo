@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "6f4e5949eb16142218457b27f0e3d94b"
-build_time: [1565023102, 692918000]
+build_time: [1565023823, 738330000]
 inputs:
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/FirebaseHelper.swift": [1565022109, 373510824]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/TableViewCell/MenuCell.swift": [1563890443, 0]
@@ -14,7 +14,7 @@ inputs:
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/ArticleCell.swift": [1564741000, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/RSSParser.swift": [1563959401, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/ExtensionType.swift": [1564140939, 0]
-  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Menus/MenuController.swift": [1565023102, 473588308]
+  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Menus/MenuController.swift": [1565023768, 414570090]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/CustomView.swift": [1563896898, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Actus/ActusController.swift": [1564041144, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/ExtensionUI.swift": [1564741079, 0]
