@@ -1,0 +1,802 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProfileController"
+provides-nominal:
+- "7CodaBee17ProfileControllerC"
+provides-member:
+- ["7CodaBee17ProfileControllerC", ""]
+provides-dynamic-lookup:
+- "backAction"
+- "cameraAction"
+- "centerConstraint"
+- "errorLbl"
+- "hideKey"
+- "libraryAction"
+- "logAction"
+- "profileIV"
+- "profileView"
+- "showKey"
+- "usernameEnter"
+- "usernameTF"
+- "valideAction"
+- "validerButton"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "AssignmentPrecedence"
+- "BeeUser"
+- "BooleanLiteralType"
+- "CustomView"
+- !private "DispatchQueue"
+- !private "FirebaseHelper"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MoveableController"
+- "NSLayoutConstraint"
+- "Notification"
+- "ProfileController"
+- "UIButton"
+- "UIImageView"
+- "UILabel"
+- "UITextField"
+depends-member:
+- !private ["So15CALayerDelegateP", "endEditing"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "FirebaseHelper"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addTap"]
+- !private ["s7CVarArgP", "animation"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "canAdd"]
+- !private ["s7CVarArgP", "centerConstraint"]
+- !private ["s7CVarArgP", "checkHeight"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "endEditing"]
+- !private ["s7CVarArgP", "errorLbl"]
+- !private ["s7CVarArgP", "hideKey"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "showKey"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "usernameTF"]
+- !private ["s7CVarArgP", "validerButton"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "FirebaseHelper"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addTap"]
+- !private ["s28CustomDebugStringConvertibleP", "animation"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "canAdd"]
+- !private ["s28CustomDebugStringConvertibleP", "centerConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "checkHeight"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "endEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "errorLbl"]
+- !private ["s28CustomDebugStringConvertibleP", "hideKey"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "showKey"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "usernameTF"]
+- !private ["s28CustomDebugStringConvertibleP", "validerButton"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "endEditing"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "FirebaseHelper"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addTap"]
+- !private ["s23CustomStringConvertibleP", "animation"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "canAdd"]
+- !private ["s23CustomStringConvertibleP", "centerConstraint"]
+- !private ["s23CustomStringConvertibleP", "checkHeight"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "endEditing"]
+- !private ["s23CustomStringConvertibleP", "errorLbl"]
+- !private ["s23CustomStringConvertibleP", "hideKey"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "showKey"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "usernameTF"]
+- !private ["s23CustomStringConvertibleP", "validerButton"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "endEditing"]
+- !private ["Se", "text"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "endEditing"]
+- !private ["SE", "text"]
+- !private ["SQ", "DispatchQueue"]
+- !private ["SQ", "FirebaseHelper"]
+- ["SQ", ""]
+- !private ["SQ", "addTap"]
+- !private ["SQ", "animation"]
+- !private ["SQ", "async"]
+- !private ["SQ", "canAdd"]
+- !private ["SQ", "centerConstraint"]
+- !private ["SQ", "checkHeight"]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "endEditing"]
+- !private ["SQ", "errorLbl"]
+- !private ["SQ", "hideKey"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "showKey"]
+- !private ["SQ", "text"]
+- !private ["SQ", "usernameTF"]
+- !private ["SQ", "validerButton"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s23ExpressibleByNilLiteralP", "endEditing"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["7CodaBee14FirebaseHelperC", "init"]
+- !private ["7CodaBee14FirebaseHelperC", "usernameExist"]
+- !private ["SH", "DispatchQueue"]
+- !private ["SH", "FirebaseHelper"]
+- ["SH", ""]
+- !private ["SH", "addTap"]
+- !private ["SH", "animation"]
+- !private ["SH", "async"]
+- !private ["SH", "canAdd"]
+- !private ["SH", "centerConstraint"]
+- !private ["SH", "checkHeight"]
+- !private ["SH", "dismiss"]
+- !private ["SH", "endEditing"]
+- !private ["SH", "errorLbl"]
+- !private ["SH", "hideKey"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "showKey"]
+- !private ["SH", "text"]
+- !private ["SH", "usernameTF"]
+- !private ["SH", "validerButton"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- ["7CodaBee18MoveableControllerC", "BeeUser"]
+- ["7CodaBee18MoveableControllerC", "CustomView"]
+- !private ["7CodaBee18MoveableControllerC", "DispatchQueue"]
+- !private ["7CodaBee18MoveableControllerC", "FirebaseHelper"]
+- ["7CodaBee18MoveableControllerC", "NSLayoutConstraint"]
+- ["7CodaBee18MoveableControllerC", "Notification"]
+- ["7CodaBee18MoveableControllerC", "UIButton"]
+- ["7CodaBee18MoveableControllerC", "UIImageView"]
+- ["7CodaBee18MoveableControllerC", "UILabel"]
+- ["7CodaBee18MoveableControllerC", "UITextField"]
+- ["7CodaBee18MoveableControllerC", ""]
+- !private ["7CodaBee18MoveableControllerC", "addTap"]
+- !private ["7CodaBee18MoveableControllerC", "animation"]
+- ["7CodaBee18MoveableControllerC", "backAction"]
+- ["7CodaBee18MoveableControllerC", "beeUser"]
+- ["7CodaBee18MoveableControllerC", "cameraAction"]
+- ["7CodaBee18MoveableControllerC", "canAdd"]
+- ["7CodaBee18MoveableControllerC", "centerConstraint"]
+- !private ["7CodaBee18MoveableControllerC", "checkHeight"]
+- !private ["7CodaBee18MoveableControllerC", "deinit"]
+- !private ["7CodaBee18MoveableControllerC", "dismiss"]
+- ["7CodaBee18MoveableControllerC", "errorLbl"]
+- ["7CodaBee18MoveableControllerC", "hideKey"]
+- ["7CodaBee18MoveableControllerC", "init"]
+- ["7CodaBee18MoveableControllerC", "libraryAction"]
+- ["7CodaBee18MoveableControllerC", "logAction"]
+- ["7CodaBee18MoveableControllerC", "profileIV"]
+- ["7CodaBee18MoveableControllerC", "profileView"]
+- ["7CodaBee18MoveableControllerC", "showKey"]
+- ["7CodaBee18MoveableControllerC", "usernameEnter"]
+- ["7CodaBee18MoveableControllerC", "usernameTF"]
+- ["7CodaBee18MoveableControllerC", "valideAction"]
+- ["7CodaBee18MoveableControllerC", "validerButton"]
+- !private ["7CodaBee18MoveableControllerC", "view"]
+- ["7CodaBee18MoveableControllerC", "viewDidLoad"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- !private ["So8NSCodingP", "FirebaseHelper"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addTap"]
+- !private ["So8NSCodingP", "animation"]
+- !private ["So8NSCodingP", "canAdd"]
+- !private ["So8NSCodingP", "centerConstraint"]
+- !private ["So8NSCodingP", "checkHeight"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "endEditing"]
+- !private ["So8NSCodingP", "errorLbl"]
+- !private ["So8NSCodingP", "hideKey"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "showKey"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "usernameTF"]
+- !private ["So8NSCodingP", "validerButton"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- !private ["So26NSExtensionRequestHandlingP", "FirebaseHelper"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "addTap"]
+- !private ["So26NSExtensionRequestHandlingP", "animation"]
+- !private ["So26NSExtensionRequestHandlingP", "canAdd"]
+- !private ["So26NSExtensionRequestHandlingP", "centerConstraint"]
+- !private ["So26NSExtensionRequestHandlingP", "checkHeight"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "errorLbl"]
+- !private ["So26NSExtensionRequestHandlingP", "hideKey"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "showKey"]
+- !private ["So26NSExtensionRequestHandlingP", "usernameTF"]
+- !private ["So26NSExtensionRequestHandlingP", "validerButton"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "BeeUser"]
+- ["So8NSObjectC", "CustomView"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "FirebaseHelper"]
+- ["So8NSObjectC", "NSLayoutConstraint"]
+- ["So8NSObjectC", "Notification"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITextField"]
+- !private ["So8NSObjectC", "addTap"]
+- !private ["So8NSObjectC", "animation"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "backAction"]
+- ["So8NSObjectC", "beeUser"]
+- ["So8NSObjectC", "cameraAction"]
+- ["So8NSObjectC", "canAdd"]
+- ["So8NSObjectC", "centerConstraint"]
+- !private ["So8NSObjectC", "checkHeight"]
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "endEditing"]
+- ["So8NSObjectC", "errorLbl"]
+- ["So8NSObjectC", "hideKey"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "libraryAction"]
+- ["So8NSObjectC", "logAction"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "profileIV"]
+- ["So8NSObjectC", "profileView"]
+- ["So8NSObjectC", "showKey"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "usernameEnter"]
+- ["So8NSObjectC", "usernameTF"]
+- ["So8NSObjectC", "valideAction"]
+- ["So8NSObjectC", "validerButton"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- !private ["So8NSObjectP", "FirebaseHelper"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addTap"]
+- !private ["So8NSObjectP", "animation"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "canAdd"]
+- !private ["So8NSObjectP", "centerConstraint"]
+- !private ["So8NSObjectP", "checkHeight"]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "endEditing"]
+- !private ["So8NSObjectP", "errorLbl"]
+- !private ["So8NSObjectP", "hideKey"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "showKey"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "usernameTF"]
+- !private ["So8NSObjectP", "validerButton"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "endEditing"]
+- !private ["Sq", "text"]
+- ["7CodaBee17ProfileControllerC", "BeeUser"]
+- ["7CodaBee17ProfileControllerC", "CustomView"]
+- !private ["7CodaBee17ProfileControllerC", "DispatchQueue"]
+- !private ["7CodaBee17ProfileControllerC", "FirebaseHelper"]
+- ["7CodaBee17ProfileControllerC", "NSLayoutConstraint"]
+- ["7CodaBee17ProfileControllerC", "Notification"]
+- ["7CodaBee17ProfileControllerC", "UIButton"]
+- ["7CodaBee17ProfileControllerC", "UIImageView"]
+- ["7CodaBee17ProfileControllerC", "UILabel"]
+- ["7CodaBee17ProfileControllerC", "UITextField"]
+- !private ["7CodaBee17ProfileControllerC", "addTap"]
+- !private ["7CodaBee17ProfileControllerC", "animation"]
+- ["7CodaBee17ProfileControllerC", "backAction"]
+- ["7CodaBee17ProfileControllerC", "beeUser"]
+- ["7CodaBee17ProfileControllerC", "cameraAction"]
+- ["7CodaBee17ProfileControllerC", "canAdd"]
+- ["7CodaBee17ProfileControllerC", "centerConstraint"]
+- !private ["7CodaBee17ProfileControllerC", "checkHeight"]
+- ["7CodaBee17ProfileControllerC", "deinit"]
+- !private ["7CodaBee17ProfileControllerC", "dismiss"]
+- ["7CodaBee17ProfileControllerC", "errorLbl"]
+- ["7CodaBee17ProfileControllerC", "hideKey"]
+- ["7CodaBee17ProfileControllerC", "init"]
+- ["7CodaBee17ProfileControllerC", "libraryAction"]
+- ["7CodaBee17ProfileControllerC", "logAction"]
+- ["7CodaBee17ProfileControllerC", "profileIV"]
+- ["7CodaBee17ProfileControllerC", "profileView"]
+- ["7CodaBee17ProfileControllerC", "showKey"]
+- ["7CodaBee17ProfileControllerC", "usernameEnter"]
+- ["7CodaBee17ProfileControllerC", "usernameTF"]
+- ["7CodaBee17ProfileControllerC", "valideAction"]
+- ["7CodaBee17ProfileControllerC", "validerButton"]
+- !private ["7CodaBee17ProfileControllerC", "view"]
+- ["7CodaBee17ProfileControllerC", "viewDidLoad"]
+- !private ["So29UIAccessibilityIdentificationP", "endEditing"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "endEditing"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- !private ["So21UIAppearanceContainerP", "FirebaseHelper"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addTap"]
+- !private ["So21UIAppearanceContainerP", "animation"]
+- !private ["So21UIAppearanceContainerP", "canAdd"]
+- !private ["So21UIAppearanceContainerP", "centerConstraint"]
+- !private ["So21UIAppearanceContainerP", "checkHeight"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "endEditing"]
+- !private ["So21UIAppearanceContainerP", "errorLbl"]
+- !private ["So21UIAppearanceContainerP", "hideKey"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "showKey"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "usernameTF"]
+- !private ["So21UIAppearanceContainerP", "validerButton"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- !private ["So18UIContentContainerP", "FirebaseHelper"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "addTap"]
+- !private ["So18UIContentContainerP", "animation"]
+- !private ["So18UIContentContainerP", "canAdd"]
+- !private ["So18UIContentContainerP", "centerConstraint"]
+- !private ["So18UIContentContainerP", "checkHeight"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "errorLbl"]
+- !private ["So18UIContentContainerP", "hideKey"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "showKey"]
+- !private ["So18UIContentContainerP", "usernameTF"]
+- !private ["So18UIContentContainerP", "validerButton"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "endEditing"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "endEditing"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- !private ["So18UIFocusEnvironmentP", "FirebaseHelper"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addTap"]
+- !private ["So18UIFocusEnvironmentP", "animation"]
+- !private ["So18UIFocusEnvironmentP", "canAdd"]
+- !private ["So18UIFocusEnvironmentP", "centerConstraint"]
+- !private ["So18UIFocusEnvironmentP", "checkHeight"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "endEditing"]
+- !private ["So18UIFocusEnvironmentP", "errorLbl"]
+- !private ["So18UIFocusEnvironmentP", "hideKey"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "showKey"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "usernameTF"]
+- !private ["So18UIFocusEnvironmentP", "validerButton"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "endEditing"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "endEditing"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "FirebaseHelper"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addTap"]
+- !private ["So30UIPasteConfigurationSupportingP", "animation"]
+- !private ["So30UIPasteConfigurationSupportingP", "canAdd"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerConstraint"]
+- !private ["So30UIPasteConfigurationSupportingP", "checkHeight"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "endEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "errorLbl"]
+- !private ["So30UIPasteConfigurationSupportingP", "hideKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "showKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "usernameTF"]
+- !private ["So30UIPasteConfigurationSupportingP", "validerButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "BeeUser"]
+- ["So11UIResponderC", "CustomView"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- !private ["So11UIResponderC", "FirebaseHelper"]
+- ["So11UIResponderC", "NSLayoutConstraint"]
+- ["So11UIResponderC", "Notification"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITextField"]
+- !private ["So11UIResponderC", "addTap"]
+- !private ["So11UIResponderC", "animation"]
+- ["So11UIResponderC", "backAction"]
+- ["So11UIResponderC", "beeUser"]
+- ["So11UIResponderC", "cameraAction"]
+- ["So11UIResponderC", "canAdd"]
+- ["So11UIResponderC", "centerConstraint"]
+- !private ["So11UIResponderC", "checkHeight"]
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "endEditing"]
+- ["So11UIResponderC", "errorLbl"]
+- ["So11UIResponderC", "hideKey"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "libraryAction"]
+- ["So11UIResponderC", "logAction"]
+- ["So11UIResponderC", "profileIV"]
+- ["So11UIResponderC", "profileView"]
+- ["So11UIResponderC", "showKey"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "usernameEnter"]
+- ["So11UIResponderC", "usernameTF"]
+- ["So11UIResponderC", "valideAction"]
+- ["So11UIResponderC", "validerButton"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "FirebaseHelper"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addTap"]
+- !private ["So30UIResponderStandardEditActionsP", "animation"]
+- !private ["So30UIResponderStandardEditActionsP", "canAdd"]
+- !private ["So30UIResponderStandardEditActionsP", "centerConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "checkHeight"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "endEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "errorLbl"]
+- !private ["So30UIResponderStandardEditActionsP", "hideKey"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "showKey"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "usernameTF"]
+- !private ["So30UIResponderStandardEditActionsP", "validerButton"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- !private ["So16UIStateRestoringP", "FirebaseHelper"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "addTap"]
+- !private ["So16UIStateRestoringP", "animation"]
+- !private ["So16UIStateRestoringP", "canAdd"]
+- !private ["So16UIStateRestoringP", "centerConstraint"]
+- !private ["So16UIStateRestoringP", "checkHeight"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "errorLbl"]
+- !private ["So16UIStateRestoringP", "hideKey"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "showKey"]
+- !private ["So16UIStateRestoringP", "usernameTF"]
+- !private ["So16UIStateRestoringP", "validerButton"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- !private ["So18UITraitEnvironmentP", "FirebaseHelper"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addTap"]
+- !private ["So18UITraitEnvironmentP", "animation"]
+- !private ["So18UITraitEnvironmentP", "canAdd"]
+- !private ["So18UITraitEnvironmentP", "centerConstraint"]
+- !private ["So18UITraitEnvironmentP", "checkHeight"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "endEditing"]
+- !private ["So18UITraitEnvironmentP", "errorLbl"]
+- !private ["So18UITraitEnvironmentP", "hideKey"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "showKey"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "usernameTF"]
+- !private ["So18UITraitEnvironmentP", "validerButton"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "DispatchQueue"]
+- !private ["So23UIUserActivityRestoringP", "FirebaseHelper"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addTap"]
+- !private ["So23UIUserActivityRestoringP", "animation"]
+- !private ["So23UIUserActivityRestoringP", "canAdd"]
+- !private ["So23UIUserActivityRestoringP", "centerConstraint"]
+- !private ["So23UIUserActivityRestoringP", "checkHeight"]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "endEditing"]
+- !private ["So23UIUserActivityRestoringP", "errorLbl"]
+- !private ["So23UIUserActivityRestoringP", "hideKey"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "showKey"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "usernameTF"]
+- !private ["So23UIUserActivityRestoringP", "validerButton"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "endEditing"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "BeeUser"]
+- ["So16UIViewControllerC", "CustomView"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- !private ["So16UIViewControllerC", "FirebaseHelper"]
+- ["So16UIViewControllerC", "NSLayoutConstraint"]
+- ["So16UIViewControllerC", "Notification"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UITextField"]
+- !private ["So16UIViewControllerC", "addTap"]
+- !private ["So16UIViewControllerC", "animation"]
+- ["So16UIViewControllerC", "backAction"]
+- ["So16UIViewControllerC", "beeUser"]
+- ["So16UIViewControllerC", "cameraAction"]
+- ["So16UIViewControllerC", "canAdd"]
+- ["So16UIViewControllerC", "centerConstraint"]
+- !private ["So16UIViewControllerC", "checkHeight"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "errorLbl"]
+- ["So16UIViewControllerC", "hideKey"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "libraryAction"]
+- ["So16UIViewControllerC", "logAction"]
+- ["So16UIViewControllerC", "profileIV"]
+- ["So16UIViewControllerC", "profileView"]
+- ["So16UIViewControllerC", "showKey"]
+- ["So16UIViewControllerC", "usernameEnter"]
+- ["So16UIViewControllerC", "usernameTF"]
+- ["So16UIViewControllerC", "valideAction"]
+- ["So16UIViewControllerC", "validerButton"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FirebaseHelper"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canAdd"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "checkHeight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "errorLbl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hideKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "usernameTF"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "validerButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "endEditing"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "endEditing"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "7CodaBee14FirebaseHelperC"
+- "SH"
+- "7CodaBee18MoveableControllerC"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So9OS_objectC"
+- !private "Sq"
+- "7CodaBee17ProfileControllerC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So10UIKeyInputP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Modules/InteractiveSideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Headers/InteractiveSideMenu-umbrella.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Headers/InteractiveSideMenu-Swift.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f7dad785672315fbcac0b6a9219f19ff"

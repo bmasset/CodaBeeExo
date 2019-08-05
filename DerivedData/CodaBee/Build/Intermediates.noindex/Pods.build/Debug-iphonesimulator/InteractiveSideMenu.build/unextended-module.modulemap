@@ -1,0 +1,10 @@
+framework module InteractiveSideMenu {
+  umbrella header "InteractiveSideMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module InteractiveSideMenu.__Swift {
+    exclude header "InteractiveSideMenu-Swift.h"
+}

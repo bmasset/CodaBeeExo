@@ -1,0 +1,11 @@
+framework module InteractiveSideMenu {
+  umbrella header "InteractiveSideMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module InteractiveSideMenu.Swift {
+    header "InteractiveSideMenu-Swift.h"
+    requires objc
+}

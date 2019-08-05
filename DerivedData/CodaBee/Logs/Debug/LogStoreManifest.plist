@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0B2624D0-D23B-4897-85B0-FB56277DA0D3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0B2624D0-D23B-4897-85B0-FB56277DA0D3.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CodaBee project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CodaBee</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CodaBee</string>
+			<key>timeStartedRecording</key>
+			<real>586445918.65722096</real>
+			<key>timeStoppedRecording</key>
+			<real>586446005.91493797</real>
+			<key>title</key>
+			<string>Debug CodaBee</string>
+			<key>uniqueIdentifier</key>
+			<string>0B2624D0-D23B-4897-85B0-FB56277DA0D3</string>
+		</dict>
+		<key>2C50C063-93D8-4BDA-99CF-E63B1D420855</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2C50C063-93D8-4BDA-99CF-E63B1D420855.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CodaBee project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CodaBee</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CodaBee</string>
+			<key>timeStartedRecording</key>
+			<real>586542167.29557705</real>
+			<key>timeStoppedRecording</key>
+			<real>586542259.43810904</real>
+			<key>title</key>
+			<string>Debug CodaBee</string>
+			<key>uniqueIdentifier</key>
+			<string>2C50C063-93D8-4BDA-99CF-E63B1D420855</string>
+		</dict>
+		<key>57DE63A5-7C73-4C2C-A98A-63EDBB14C3A3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>57DE63A5-7C73-4C2C-A98A-63EDBB14C3A3.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CodaBee project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CodaBee</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CodaBee</string>
+			<key>timeStartedRecording</key>
+			<real>586456488.48642302</real>
+			<key>timeStoppedRecording</key>
+			<real>586456561.24920595</real>
+			<key>title</key>
+			<string>Debug CodaBee</string>
+			<key>uniqueIdentifier</key>
+			<string>57DE63A5-7C73-4C2C-A98A-63EDBB14C3A3</string>
+		</dict>
+		<key>8CFCCD0B-5EB0-4875-BD11-1BD5C5DBA93D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8CFCCD0B-5EB0-4875-BD11-1BD5C5DBA93D.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CodaBee project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CodaBee</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CodaBee</string>
+			<key>timeStartedRecording</key>
+			<real>586434270.36277103</real>
+			<key>timeStoppedRecording</key>
+			<real>586434313.46258903</real>
+			<key>title</key>
+			<string>Debug CodaBee</string>
+			<key>uniqueIdentifier</key>
+			<string>8CFCCD0B-5EB0-4875-BD11-1BD5C5DBA93D</string>
+		</dict>
+		<key>C26792C2-0DBF-4EDF-851D-47D06B80B4A5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C26792C2-0DBF-4EDF-851D-47D06B80B4A5.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CodaBee project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CodaBee</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CodaBee</string>
+			<key>timeStartedRecording</key>
+			<real>586526847.98810804</real>
+			<key>timeStoppedRecording</key>
+			<real>586527077.92407298</real>
+			<key>title</key>
+			<string>Debug CodaBee</string>
+			<key>uniqueIdentifier</key>
+			<string>C26792C2-0DBF-4EDF-851D-47D06B80B4A5</string>
+		</dict>
+		<key>E1F14670-BD9B-454C-9551-235885EF2871</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E1F14670-BD9B-454C-9551-235885EF2871.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CodaBee project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CodaBee</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CodaBee</string>
+			<key>timeStartedRecording</key>
+			<real>586454956.89270198</real>
+			<key>timeStoppedRecording</key>
+			<real>586455070.86910701</real>
+			<key>title</key>
+			<string>Debug CodaBee</string>
+			<key>uniqueIdentifier</key>
+			<string>E1F14670-BD9B-454C-9551-235885EF2871</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

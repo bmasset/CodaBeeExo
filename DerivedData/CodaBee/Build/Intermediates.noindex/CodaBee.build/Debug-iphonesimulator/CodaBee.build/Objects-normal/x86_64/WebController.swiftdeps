@@ -1,0 +1,740 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WebController"
+provides-nominal:
+- "7CodaBee13WebControllerC"
+provides-member:
+- ["7CodaBee13WebControllerC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "webView"
+depends-top-level:
+- !private "!="
+- !private "-"
+- !private "/"
+- "AssignmentPrecedence"
+- !private "CGRect"
+- "LoadingImageView"
+- "String"
+- "UIViewController"
+- !private "URL"
+- !private "URLRequest"
+- "WKNavigation"
+- "WKNavigationDelegate"
+- "WKWebView"
+- "WebController"
+depends-member:
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "load"]
+- !private ["So15CALayerDelegateP", "navigationDelegate"]
+- !private ["So15CALayerDelegateP", "removeFromSuperview"]
+- !private ["So15CALayerDelegateP", "start"]
+- !private ["So15CALayerDelegateP", "stop"]
+- !private ["So6CGRectV", "init"]
+- !private ["So6CGRectV", "width"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "LoadingImageView"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "URLRequest"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "load"]
+- !private ["s7CVarArgP", "loadingIV"]
+- !private ["s7CVarArgP", "navigationDelegate"]
+- !private ["s7CVarArgP", "removeFromSuperview"]
+- !private ["s7CVarArgP", "start"]
+- !private ["s7CVarArgP", "stop"]
+- !private ["s7CVarArgP", "urlString"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", "webView"]
+- ["s7CVarArgP", "webViewWebContentProcessDidTerminate"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "LoadingImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "load"]
+- !private ["s28CustomDebugStringConvertibleP", "loadingIV"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperview"]
+- !private ["s28CustomDebugStringConvertibleP", "start"]
+- !private ["s28CustomDebugStringConvertibleP", "stop"]
+- !private ["s28CustomDebugStringConvertibleP", "urlString"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", "webView"]
+- ["s28CustomDebugStringConvertibleP", "webViewWebContentProcessDidTerminate"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s17CustomReflectableP", "addSubview"]
+- !private ["s17CustomReflectableP", "frame"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "load"]
+- !private ["s17CustomReflectableP", "navigationDelegate"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "LoadingImageView"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "URLRequest"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "load"]
+- !private ["s23CustomStringConvertibleP", "loadingIV"]
+- !private ["s23CustomStringConvertibleP", "navigationDelegate"]
+- !private ["s23CustomStringConvertibleP", "removeFromSuperview"]
+- !private ["s23CustomStringConvertibleP", "start"]
+- !private ["s23CustomStringConvertibleP", "stop"]
+- !private ["s23CustomStringConvertibleP", "urlString"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", "webView"]
+- ["s23CustomStringConvertibleP", "webViewWebContentProcessDidTerminate"]
+- !private ["Se", "addSubview"]
+- !private ["Se", "frame"]
+- !private ["Se", "init"]
+- !private ["Se", "load"]
+- !private ["Se", "navigationDelegate"]
+- !private ["Se", "width"]
+- !private ["SE", "addSubview"]
+- !private ["SE", "frame"]
+- !private ["SE", "init"]
+- !private ["SE", "load"]
+- !private ["SE", "navigationDelegate"]
+- !private ["SE", "width"]
+- !private ["SQ", "CGRect"]
+- !private ["SQ", "LoadingImageView"]
+- !private ["SQ", "URL"]
+- !private ["SQ", "URLRequest"]
+- ["SQ", ""]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "init"]
+- !private ["SQ", "load"]
+- !private ["SQ", "loadingIV"]
+- !private ["SQ", "navigationDelegate"]
+- !private ["SQ", "removeFromSuperview"]
+- !private ["SQ", "start"]
+- !private ["SQ", "stop"]
+- !private ["SQ", "urlString"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- ["SQ", "webView"]
+- ["SQ", "webViewWebContentProcessDidTerminate"]
+- !private ["SQ", "width"]
+- !private ["s23ExpressibleByNilLiteralP", "addSubview"]
+- !private ["s23ExpressibleByNilLiteralP", "frame"]
+- !private ["s23ExpressibleByNilLiteralP", "load"]
+- !private ["s23ExpressibleByNilLiteralP", "navigationDelegate"]
+- !private ["SH", "CGRect"]
+- !private ["SH", "LoadingImageView"]
+- !private ["SH", "URL"]
+- !private ["SH", "URLRequest"]
+- ["SH", ""]
+- !private ["SH", "addSubview"]
+- !private ["SH", "frame"]
+- !private ["SH", "init"]
+- !private ["SH", "load"]
+- !private ["SH", "loadingIV"]
+- !private ["SH", "navigationDelegate"]
+- !private ["SH", "removeFromSuperview"]
+- !private ["SH", "start"]
+- !private ["SH", "stop"]
+- !private ["SH", "urlString"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- ["SH", "webView"]
+- ["SH", "webViewWebContentProcessDidTerminate"]
+- !private ["7CodaBee16LoadingImageViewC", "deinit"]
+- !private ["7CodaBee16LoadingImageViewC", "init"]
+- !private ["7CodaBee16LoadingImageViewC", "removeFromSuperview"]
+- !private ["7CodaBee16LoadingImageViewC", "start"]
+- !private ["7CodaBee16LoadingImageViewC", "stop"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "LoadingImageView"]
+- !private ["So8NSCodingP", "URL"]
+- !private ["So8NSCodingP", "URLRequest"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "load"]
+- !private ["So8NSCodingP", "loadingIV"]
+- !private ["So8NSCodingP", "navigationDelegate"]
+- !private ["So8NSCodingP", "removeFromSuperview"]
+- !private ["So8NSCodingP", "start"]
+- !private ["So8NSCodingP", "stop"]
+- !private ["So8NSCodingP", "urlString"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", "webView"]
+- ["So8NSCodingP", "webViewWebContentProcessDidTerminate"]
+- !private ["So26NSExtensionRequestHandlingP", "CGRect"]
+- !private ["So26NSExtensionRequestHandlingP", "LoadingImageView"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- !private ["So26NSExtensionRequestHandlingP", "URLRequest"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "loadingIV"]
+- !private ["So26NSExtensionRequestHandlingP", "urlString"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "webView"]
+- ["So26NSExtensionRequestHandlingP", "webViewWebContentProcessDidTerminate"]
+- !private ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "LoadingImageView"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "WKNavigation"]
+- ["So8NSObjectC", "WKWebView"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "load"]
+- ["So8NSObjectC", "loadingIV"]
+- !private ["So8NSObjectC", "navigationDelegate"]
+- !private ["So8NSObjectC", "removeFromSuperview"]
+- !private ["So8NSObjectC", "start"]
+- !private ["So8NSObjectC", "stop"]
+- ["So8NSObjectC", "urlString"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "webView"]
+- ["So8NSObjectC", "webViewWebContentProcessDidTerminate"]
+- !private ["So8NSObjectP", "CGRect"]
+- !private ["So8NSObjectP", "LoadingImageView"]
+- !private ["So8NSObjectP", "URL"]
+- !private ["So8NSObjectP", "URLRequest"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "load"]
+- !private ["So8NSObjectP", "loadingIV"]
+- !private ["So8NSObjectP", "navigationDelegate"]
+- !private ["So8NSObjectP", "removeFromSuperview"]
+- !private ["So8NSObjectP", "start"]
+- !private ["So8NSObjectP", "stop"]
+- !private ["So8NSObjectP", "urlString"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- ["So8NSObjectP", "webView"]
+- ["So8NSObjectP", "webViewWebContentProcessDidTerminate"]
+- !private ["Sq", "addSubview"]
+- !private ["Sq", "frame"]
+- !private ["Sq", "load"]
+- !private ["Sq", "navigationDelegate"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "removeFromSuperview"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "start"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "stop"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "load"]
+- !private ["So29UIAccessibilityIdentificationP", "navigationDelegate"]
+- !private ["So29UIAccessibilityIdentificationP", "removeFromSuperview"]
+- !private ["So29UIAccessibilityIdentificationP", "start"]
+- !private ["So29UIAccessibilityIdentificationP", "stop"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "load"]
+- !private ["So12UIAppearanceP", "navigationDelegate"]
+- !private ["So12UIAppearanceP", "removeFromSuperview"]
+- !private ["So12UIAppearanceP", "start"]
+- !private ["So12UIAppearanceP", "stop"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "LoadingImageView"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- !private ["So21UIAppearanceContainerP", "URLRequest"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "load"]
+- !private ["So21UIAppearanceContainerP", "loadingIV"]
+- !private ["So21UIAppearanceContainerP", "navigationDelegate"]
+- !private ["So21UIAppearanceContainerP", "removeFromSuperview"]
+- !private ["So21UIAppearanceContainerP", "start"]
+- !private ["So21UIAppearanceContainerP", "stop"]
+- !private ["So21UIAppearanceContainerP", "urlString"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", "webView"]
+- ["So21UIAppearanceContainerP", "webViewWebContentProcessDidTerminate"]
+- !private ["So18UIContentContainerP", "CGRect"]
+- !private ["So18UIContentContainerP", "LoadingImageView"]
+- !private ["So18UIContentContainerP", "URL"]
+- !private ["So18UIContentContainerP", "URLRequest"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "loadingIV"]
+- !private ["So18UIContentContainerP", "urlString"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "webView"]
+- ["So18UIContentContainerP", "webViewWebContentProcessDidTerminate"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "load"]
+- !private ["So17UICoordinateSpaceP", "navigationDelegate"]
+- !private ["So17UICoordinateSpaceP", "removeFromSuperview"]
+- !private ["So17UICoordinateSpaceP", "start"]
+- !private ["So17UICoordinateSpaceP", "stop"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "load"]
+- !private ["So13UIDynamicItemP", "navigationDelegate"]
+- !private ["So13UIDynamicItemP", "removeFromSuperview"]
+- !private ["So13UIDynamicItemP", "start"]
+- !private ["So13UIDynamicItemP", "stop"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "LoadingImageView"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- !private ["So18UIFocusEnvironmentP", "URLRequest"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "load"]
+- !private ["So18UIFocusEnvironmentP", "loadingIV"]
+- !private ["So18UIFocusEnvironmentP", "navigationDelegate"]
+- !private ["So18UIFocusEnvironmentP", "removeFromSuperview"]
+- !private ["So18UIFocusEnvironmentP", "start"]
+- !private ["So18UIFocusEnvironmentP", "stop"]
+- !private ["So18UIFocusEnvironmentP", "urlString"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "webView"]
+- ["So18UIFocusEnvironmentP", "webViewWebContentProcessDidTerminate"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "load"]
+- !private ["So11UIFocusItemP", "navigationDelegate"]
+- !private ["So11UIFocusItemP", "removeFromSuperview"]
+- !private ["So11UIFocusItemP", "start"]
+- !private ["So11UIFocusItemP", "stop"]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "load"]
+- !private ["So20UIFocusItemContainerP", "navigationDelegate"]
+- !private ["So20UIFocusItemContainerP", "removeFromSuperview"]
+- !private ["So20UIFocusItemContainerP", "start"]
+- !private ["So20UIFocusItemContainerP", "stop"]
+- !private ["So11UIImageViewC", "removeFromSuperview"]
+- !private ["So11UIImageViewC", "start"]
+- !private ["So11UIImageViewC", "stop"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "LoadingImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- !private ["So30UIPasteConfigurationSupportingP", "URLRequest"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "load"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadingIV"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeFromSuperview"]
+- !private ["So30UIPasteConfigurationSupportingP", "start"]
+- !private ["So30UIPasteConfigurationSupportingP", "stop"]
+- !private ["So30UIPasteConfigurationSupportingP", "urlString"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "webView"]
+- ["So30UIPasteConfigurationSupportingP", "webViewWebContentProcessDidTerminate"]
+- !private ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "LoadingImageView"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "URLRequest"]
+- ["So11UIResponderC", "WKNavigation"]
+- ["So11UIResponderC", "WKWebView"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "load"]
+- ["So11UIResponderC", "loadingIV"]
+- !private ["So11UIResponderC", "navigationDelegate"]
+- !private ["So11UIResponderC", "removeFromSuperview"]
+- !private ["So11UIResponderC", "start"]
+- !private ["So11UIResponderC", "stop"]
+- ["So11UIResponderC", "urlString"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "webView"]
+- ["So11UIResponderC", "webViewWebContentProcessDidTerminate"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "LoadingImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- !private ["So30UIResponderStandardEditActionsP", "URLRequest"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "load"]
+- !private ["So30UIResponderStandardEditActionsP", "loadingIV"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "removeFromSuperview"]
+- !private ["So30UIResponderStandardEditActionsP", "start"]
+- !private ["So30UIResponderStandardEditActionsP", "stop"]
+- !private ["So30UIResponderStandardEditActionsP", "urlString"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "webView"]
+- ["So30UIResponderStandardEditActionsP", "webViewWebContentProcessDidTerminate"]
+- !private ["So16UIStateRestoringP", "CGRect"]
+- !private ["So16UIStateRestoringP", "LoadingImageView"]
+- !private ["So16UIStateRestoringP", "URL"]
+- !private ["So16UIStateRestoringP", "URLRequest"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "loadingIV"]
+- !private ["So16UIStateRestoringP", "urlString"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "webView"]
+- ["So16UIStateRestoringP", "webViewWebContentProcessDidTerminate"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "LoadingImageView"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- !private ["So18UITraitEnvironmentP", "URLRequest"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "load"]
+- !private ["So18UITraitEnvironmentP", "loadingIV"]
+- !private ["So18UITraitEnvironmentP", "navigationDelegate"]
+- !private ["So18UITraitEnvironmentP", "removeFromSuperview"]
+- !private ["So18UITraitEnvironmentP", "start"]
+- !private ["So18UITraitEnvironmentP", "stop"]
+- !private ["So18UITraitEnvironmentP", "urlString"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "webView"]
+- ["So18UITraitEnvironmentP", "webViewWebContentProcessDidTerminate"]
+- !private ["So23UIUserActivityRestoringP", "CGRect"]
+- !private ["So23UIUserActivityRestoringP", "LoadingImageView"]
+- !private ["So23UIUserActivityRestoringP", "URL"]
+- !private ["So23UIUserActivityRestoringP", "URLRequest"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "load"]
+- !private ["So23UIUserActivityRestoringP", "loadingIV"]
+- !private ["So23UIUserActivityRestoringP", "navigationDelegate"]
+- !private ["So23UIUserActivityRestoringP", "removeFromSuperview"]
+- !private ["So23UIUserActivityRestoringP", "start"]
+- !private ["So23UIUserActivityRestoringP", "stop"]
+- !private ["So23UIUserActivityRestoringP", "urlString"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "webView"]
+- ["So23UIUserActivityRestoringP", "webViewWebContentProcessDidTerminate"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "load"]
+- !private ["So6UIViewC", "navigationDelegate"]
+- !private ["So6UIViewC", "removeFromSuperview"]
+- !private ["So6UIViewC", "start"]
+- !private ["So6UIViewC", "stop"]
+- !private ["So16UIViewControllerC", "CGRect"]
+- ["So16UIViewControllerC", "LoadingImageView"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "URL"]
+- !private ["So16UIViewControllerC", "URLRequest"]
+- ["So16UIViewControllerC", "WKNavigation"]
+- ["So16UIViewControllerC", "WKWebView"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loadingIV"]
+- ["So16UIViewControllerC", "urlString"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "webView"]
+- ["So16UIViewControllerC", "webViewWebContentProcessDidTerminate"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["So20WKNavigationDelegateP", "CGRect"]
+- !private ["So20WKNavigationDelegateP", "LoadingImageView"]
+- !private ["So20WKNavigationDelegateP", "URL"]
+- !private ["So20WKNavigationDelegateP", "URLRequest"]
+- ["So20WKNavigationDelegateP", ""]
+- !private ["So20WKNavigationDelegateP", "loadingIV"]
+- !private ["So20WKNavigationDelegateP", "urlString"]
+- !private ["So20WKNavigationDelegateP", "view"]
+- ["So20WKNavigationDelegateP", "webView"]
+- ["So20WKNavigationDelegateP", "webViewWebContentProcessDidTerminate"]
+- !private ["So9WKWebViewC", "load"]
+- !private ["So9WKWebViewC", "navigationDelegate"]
+- !private ["7CodaBee13WebControllerC", "CGRect"]
+- ["7CodaBee13WebControllerC", "LoadingImageView"]
+- ["7CodaBee13WebControllerC", "String"]
+- !private ["7CodaBee13WebControllerC", "URL"]
+- !private ["7CodaBee13WebControllerC", "URLRequest"]
+- ["7CodaBee13WebControllerC", "WKNavigation"]
+- ["7CodaBee13WebControllerC", "WKWebView"]
+- ["7CodaBee13WebControllerC", "deinit"]
+- ["7CodaBee13WebControllerC", "init"]
+- ["7CodaBee13WebControllerC", "loadingIV"]
+- ["7CodaBee13WebControllerC", "urlString"]
+- !private ["7CodaBee13WebControllerC", "view"]
+- ["7CodaBee13WebControllerC", "viewDidLoad"]
+- ["7CodaBee13WebControllerC", "webView"]
+- ["7CodaBee13WebControllerC", "webViewWebContentProcessDidTerminate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LoadingImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "load"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadingIV"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "start"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stop"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "urlString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webViewWebContentProcessDidTerminate"]
+- !private ["s21_ObjectiveCBridgeableP", "addSubview"]
+- !private ["s21_ObjectiveCBridgeableP", "frame"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "load"]
+- !private ["s21_ObjectiveCBridgeableP", "navigationDelegate"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "load"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "navigationDelegate"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "removeFromSuperview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "start"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "stop"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "7CodaBee16LoadingImageViewC"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So11UIImageViewC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- "So20WKNavigationDelegateP"
+- !private "So9WKWebViewC"
+- "7CodaBee13WebControllerC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Modules/InteractiveSideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Headers/InteractiveSideMenu-umbrella.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Headers/InteractiveSideMenu-Swift.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Users/bernard/Desktop/CodaBee/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Products/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "da9cb0c0a76e10ae7a646f445fcb5b7e"

@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceID.m \
+  /Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseInstanceID.build/module.modulemap \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FIRInstanceID.h \
+  /Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseCore/Firebase/Core/Private/FIRAppInternal.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h \
+  /Users/bernard/Desktop/CodaBee/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseCore/Firebase/Core/Private/FIRErrors.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseCore/Firebase/Core/Private/FIRErrorCode.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseCore/Firebase/Core/Private/FIRComponent.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentContainer.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentType.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseCore/Firebase/Core/Private/FIRLibrary.h \
+  /Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/GoogleUtilities.build/module.modulemap \
+  /Users/bernard/Desktop/CodaBee/Pods/GoogleUtilities/GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceID+Private.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinService.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDUtilities.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthService.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinPreferences.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCombinedHandler.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDConstants.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDDefines.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeyPairStore.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDLogger.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRIMessageCode.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDStore.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenInfo.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAPNSInfo.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenManager.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDVersionUtilities.h \
+  /Users/bernard/Desktop/CodaBee/Pods/FirebaseInstanceID/Firebase/InstanceID/NSError+FIRInstanceID.h

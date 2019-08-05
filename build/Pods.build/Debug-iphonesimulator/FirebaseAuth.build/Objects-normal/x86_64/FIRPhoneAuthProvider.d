@@ -1,0 +1,42 @@
+dependencies: \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProvider/Phone/FIRPhoneAuthProvider.m \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/module.modulemap \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthProvider.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/build/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseCore/Firebase/Core/Private/FIRLogger.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProvider/Phone/FIRPhoneAuthCredential_Internal.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthCredential.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthCredential.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/SystemService/FIRAuthAPNSToken.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthAPNSTokenType.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/SystemService/FIRAuthAPNSTokenManager.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/SystemService/FIRAuthAppCredential.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/SystemService/FIRAuthAppCredentialManager.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Auth/FIRAuthGlobalWorkQueue.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Auth/FIRAuth_Internal.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuth.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthErrors.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/Headers/Public/FirebaseAuthInterop/FIRAuthInterop.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthURLPresenter.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/SystemService/FIRAuthNotificationManager.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthErrorUtils.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthBackend.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthSettings.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthWebUtils.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FirebaseAuthVersion.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRGetProjectConfigRequest.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRIdentityToolkitRequest.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthRequestConfiguration.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthRPCRequest.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRGetProjectConfigResponse.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthRPCResponse.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRSendVerificationCodeRequest.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRSendVerificationCodeResponse.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRVerifyClientRequest.h \
+  /Users/bmasset/Documents/Mes\ programmes/Cours\ Swift/Cours\ Ios/18\ Codabee/CodaBee/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRVerifyClientResponse.h

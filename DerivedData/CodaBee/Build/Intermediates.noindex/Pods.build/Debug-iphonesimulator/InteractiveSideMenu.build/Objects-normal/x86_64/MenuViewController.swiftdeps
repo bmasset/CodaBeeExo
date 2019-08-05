@@ -1,0 +1,170 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MenuViewController"
+provides-nominal:
+- "19InteractiveSideMenu0C14ViewControllerC"
+provides-member:
+- ["19InteractiveSideMenu0C14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "handleTap"
+depends-top-level:
+- "MenuContainerViewController"
+- "MenuTransitioningDelegate"
+- "MenuViewController"
+- "UIGestureRecognizer"
+- "UIViewController"
+depends-member:
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "hideSideMenu"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "menuContainerViewController"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "hideSideMenu"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "menuContainerViewController"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "hideSideMenu"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "menuContainerViewController"]
+- ["SQ", ""]
+- !private ["SQ", "hideSideMenu"]
+- !private ["SQ", "init"]
+- !private ["SQ", "menuContainerViewController"]
+- ["SH", ""]
+- !private ["SH", "hideSideMenu"]
+- !private ["SH", "init"]
+- !private ["SH", "menuContainerViewController"]
+- !private ["19InteractiveSideMenu0C23ContainerViewControllerC", "hideSideMenu"]
+- ["19InteractiveSideMenu0C14ViewControllerC", "MenuContainerViewController"]
+- ["19InteractiveSideMenu0C14ViewControllerC", "MenuTransitioningDelegate"]
+- ["19InteractiveSideMenu0C14ViewControllerC", "UIGestureRecognizer"]
+- ["19InteractiveSideMenu0C14ViewControllerC", "deinit"]
+- ["19InteractiveSideMenu0C14ViewControllerC", "handleTap"]
+- ["19InteractiveSideMenu0C14ViewControllerC", "init"]
+- ["19InteractiveSideMenu0C14ViewControllerC", "menuContainerViewController"]
+- ["19InteractiveSideMenu0C14ViewControllerC", "navigationMenuTransitionDelegate"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "hideSideMenu"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "menuContainerViewController"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "hideSideMenu"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "menuContainerViewController"]
+- ["So8NSObjectC", "MenuContainerViewController"]
+- ["So8NSObjectC", "MenuTransitioningDelegate"]
+- ["So8NSObjectC", "UIGestureRecognizer"]
+- ["So8NSObjectC", "handleTap"]
+- !private ["So8NSObjectC", "hideSideMenu"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "menuContainerViewController"]
+- ["So8NSObjectC", "navigationMenuTransitionDelegate"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "hideSideMenu"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "menuContainerViewController"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "hideSideMenu"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "menuContainerViewController"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "hideSideMenu"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "menuContainerViewController"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "hideSideMenu"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "menuContainerViewController"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "hideSideMenu"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "menuContainerViewController"]
+- ["So11UIResponderC", "MenuContainerViewController"]
+- ["So11UIResponderC", "MenuTransitioningDelegate"]
+- ["So11UIResponderC", "UIGestureRecognizer"]
+- ["So11UIResponderC", "handleTap"]
+- !private ["So11UIResponderC", "hideSideMenu"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "menuContainerViewController"]
+- ["So11UIResponderC", "navigationMenuTransitionDelegate"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "hideSideMenu"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "menuContainerViewController"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "hideSideMenu"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "menuContainerViewController"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "hideSideMenu"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "menuContainerViewController"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "hideSideMenu"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "menuContainerViewController"]
+- ["So16UIViewControllerC", "MenuContainerViewController"]
+- ["So16UIViewControllerC", "MenuTransitioningDelegate"]
+- ["So16UIViewControllerC", "UIGestureRecognizer"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "handleTap"]
+- !private ["So16UIViewControllerC", "hideSideMenu"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "menuContainerViewController"]
+- ["So16UIViewControllerC", "navigationMenuTransitionDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hideSideMenu"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "menuContainerViewController"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "19InteractiveSideMenu0C23ContainerViewControllerC"
+- "19InteractiveSideMenu0C14ViewControllerC"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/bernard/Desktop/CodaBee/Pods/Target Support Files/InteractiveSideMenu/InteractiveSideMenu-umbrella.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InteractiveSideMenu.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fecd412f6d84575c782d1ebe5e31c825"

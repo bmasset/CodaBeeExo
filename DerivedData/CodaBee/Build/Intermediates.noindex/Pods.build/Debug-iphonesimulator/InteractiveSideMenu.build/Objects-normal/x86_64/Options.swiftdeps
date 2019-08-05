@@ -1,0 +1,157 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SpringParams"
+- "SpringSettings"
+- "TransitionOptions"
+provides-nominal:
+- "19InteractiveSideMenu12SpringParamsV"
+- "19InteractiveSideMenu14SpringSettingsV"
+- "19InteractiveSideMenu17TransitionOptionsV"
+provides-member:
+- ["19InteractiveSideMenu12SpringParamsV", ""]
+- ["19InteractiveSideMenu14SpringSettingsV", ""]
+- ["19InteractiveSideMenu17TransitionOptionsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "<"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CGFloat"
+- "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "SpringParams"
+- "SpringSettings"
+- !private "StringLiteralType"
+- "TimeInterval"
+- "TransitionOptions"
+- "UIView"
+- !private "fatalError"
+depends-member:
+- ["So22UIViewAnimationOptionsV", "curveEaseInOut"]
+- ["So15CALayerDelegateP", "AnimationOptions"]
+- ["s7CVarArgP", "AnimationOptions"]
+- ["s28CustomDebugStringConvertibleP", "AnimationOptions"]
+- ["s23CustomStringConvertibleP", "AnimationOptions"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SQ", "AnimationOptions"]
+- ["SQ", "curveEaseInOut"]
+- ["s25ExpressibleByArrayLiteralP", "curveEaseInOut"]
+- ["SH", "AnimationOptions"]
+- ["So8NSCodingP", "AnimationOptions"]
+- ["So8NSObjectC", "AnimationOptions"]
+- ["So8NSObjectP", "AnimationOptions"]
+- ["s9OptionSetP", "curveEaseInOut"]
+- ["SY", "curveEaseInOut"]
+- ["s10SetAlgebraP", "curveEaseInOut"]
+- ["19InteractiveSideMenu12SpringParamsV", "CGFloat"]
+- ["19InteractiveSideMenu12SpringParamsV", "dampingRatio"]
+- ["19InteractiveSideMenu12SpringParamsV", "init"]
+- ["19InteractiveSideMenu12SpringParamsV", "velocity"]
+- ["19InteractiveSideMenu14SpringSettingsV", "SpringParams"]
+- ["19InteractiveSideMenu14SpringSettingsV", "dismissSpringParams"]
+- ["19InteractiveSideMenu14SpringSettingsV", "init"]
+- ["19InteractiveSideMenu14SpringSettingsV", "presentSpringParams"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["19InteractiveSideMenu17TransitionOptionsV", "CGFloat"]
+- ["19InteractiveSideMenu17TransitionOptionsV", "SpringParams"]
+- ["19InteractiveSideMenu17TransitionOptionsV", "SpringSettings"]
+- ["19InteractiveSideMenu17TransitionOptionsV", "TimeInterval"]
+- ["19InteractiveSideMenu17TransitionOptionsV", "UIView"]
+- ["19InteractiveSideMenu17TransitionOptionsV", "animationOptions"]
+- ["19InteractiveSideMenu17TransitionOptionsV", "cancellingSpringSettings"]
+- ["19InteractiveSideMenu17TransitionOptionsV", "contentScale"]
+- ["19InteractiveSideMenu17TransitionOptionsV", "duration"]
+- !private ["19InteractiveSideMenu17TransitionOptionsV", "fatalError"]
+- ["19InteractiveSideMenu17TransitionOptionsV", "finishingSpringSettings"]
+- ["19InteractiveSideMenu17TransitionOptionsV", "init"]
+- ["19InteractiveSideMenu17TransitionOptionsV", "useCancellingSpringSettings"]
+- ["19InteractiveSideMenu17TransitionOptionsV", "useFinishingSpringSettings"]
+- ["19InteractiveSideMenu17TransitionOptionsV", "visibleContentWidth"]
+- ["So29UIAccessibilityIdentificationP", "AnimationOptions"]
+- ["So12UIAppearanceP", "AnimationOptions"]
+- ["So21UIAppearanceContainerP", "AnimationOptions"]
+- ["So17UICoordinateSpaceP", "AnimationOptions"]
+- ["So13UIDynamicItemP", "AnimationOptions"]
+- ["So18UIFocusEnvironmentP", "AnimationOptions"]
+- ["So11UIFocusItemP", "AnimationOptions"]
+- ["So20UIFocusItemContainerP", "AnimationOptions"]
+- ["So30UIPasteConfigurationSupportingP", "AnimationOptions"]
+- ["So11UIResponderC", "AnimationOptions"]
+- ["So30UIResponderStandardEditActionsP", "AnimationOptions"]
+- ["So18UITraitEnvironmentP", "AnimationOptions"]
+- ["So23UIUserActivityRestoringP", "AnimationOptions"]
+- ["So6UIViewC", "AnimationOptions"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AnimationOptions"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "AnimationOptions"]
+depends-nominal:
+- "So22UIViewAnimationOptionsV"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "s9OptionSetP"
+- "SY"
+- "s10SetAlgebraP"
+- "19InteractiveSideMenu12SpringParamsV"
+- "19InteractiveSideMenu14SpringSettingsV"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "19InteractiveSideMenu17TransitionOptionsV"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/bernard/Desktop/CodaBee/Pods/Target Support Files/InteractiveSideMenu/InteractiveSideMenu-umbrella.h"
+- "/Users/bernard/Desktop/CodaBee/DerivedData/CodaBee/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InteractiveSideMenu.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "aa611da5e253fe9edf791d7d4988241e"

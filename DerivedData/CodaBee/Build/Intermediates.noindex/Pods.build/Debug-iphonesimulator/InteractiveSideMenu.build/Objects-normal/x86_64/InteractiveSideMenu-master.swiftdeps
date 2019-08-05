@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "f7d2ad6a4a52ebd3a76b4f7c36718a3a"
+build_time: [1564763133, 110194000]
+inputs:
+  "/Users/bernard/Desktop/CodaBee/Pods/InteractiveSideMenu/Sources/MenuAnimator.swift": [1563610938, 709092008]
+  "/Users/bernard/Desktop/CodaBee/Pods/InteractiveSideMenu/Sources/MenuContainerViewController.swift": [1563633525, 195916441]
+  "/Users/bernard/Desktop/CodaBee/Pods/InteractiveSideMenu/Sources/MenuTransitioningDelegate.swift": [1563610938, 711640054]
+  "/Users/bernard/Desktop/CodaBee/Pods/InteractiveSideMenu/Sources/MenuViewController.swift": [1563610938, 712895477]
+  "/Users/bernard/Desktop/CodaBee/Pods/InteractiveSideMenu/Sources/Options.swift": [1563633525, 167062186]
+  "/Users/bernard/Desktop/CodaBee/Pods/InteractiveSideMenu/Sources/SideMenuItemContent.swift": [1563610938, 710470979]
+  "/Users/bernard/Desktop/CodaBee/Pods/InteractiveSideMenu/Sources/SideMenuItemOptions.swift": [1563610938, 705872808]

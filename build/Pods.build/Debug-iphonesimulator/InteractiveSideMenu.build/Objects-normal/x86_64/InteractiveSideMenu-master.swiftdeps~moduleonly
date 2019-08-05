@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "a8d6d8175a010681374f879aa164bcd4"
+build_time: [1565015651, 755778000]
+inputs:
+  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/InteractiveSideMenu/Sources/MenuAnimator.swift": [1563610938, 0]
+  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/InteractiveSideMenu/Sources/MenuContainerViewController.swift": [1563633525, 0]
+  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/InteractiveSideMenu/Sources/MenuTransitioningDelegate.swift": [1563610938, 0]
+  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/InteractiveSideMenu/Sources/MenuViewController.swift": [1563610938, 0]
+  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/InteractiveSideMenu/Sources/Options.swift": [1563633525, 0]
+  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/InteractiveSideMenu/Sources/SideMenuItemContent.swift": [1563610938, 0]
+  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/InteractiveSideMenu/Sources/SideMenuItemOptions.swift": [1563610938, 0]
