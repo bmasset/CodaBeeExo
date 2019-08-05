@@ -98,7 +98,9 @@ extension ProfileController: UIImagePickerControllerDelegate, UINavigationContro
         if let originale = info[.originalImage] as? UIImage {
             self.profileIV.image = originale
             // Formatter image
-            let data = originale.jpegData(compressionQuality: 0.2)
+            if let data = originale.jpegData(compressionQuality: 0.2) {
+                //FirebaseHelper().addProfilePicture(data)
+            }
             picker.dismiss(animated: true, completion: nil)
         }
     }
