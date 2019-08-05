@@ -27,7 +27,6 @@ class MenuController: MenuViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.setup(color: .clear)
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -100,13 +99,12 @@ extension MenuController: UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if items[indexPath.row] == "Forum", FirebaseHelper().connecte() == nil {
-            AlertHelper().erreurSimple(self , message: "Vous devez être connecté pour accéder au Forum"  )
+            AlertHelper().erreurSimple(self , message: "Vous devez être connecté pour accéder au Forum."  )
         } else {
             
             if let main = menuContainerViewController {
                 main.selectContentViewController(main.contentViewControllers[indexPath.row])
                 main.hideSideMenu()
-            
             }
         }
     }
