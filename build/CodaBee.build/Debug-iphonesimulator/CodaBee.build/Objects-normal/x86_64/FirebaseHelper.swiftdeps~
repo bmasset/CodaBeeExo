@@ -1,0 +1,485 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FirebaseHelper"
+provides-nominal:
+- "7CodaBee14FirebaseHelperC"
+provides-member:
+- ["7CodaBee14FirebaseHelperC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private ">"
+- "AssignmentPrecedence"
+- !private "Auth"
+- "AuthDataResult"
+- "BeeUser"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Data"
+- "Database"
+- "DatabaseReference"
+- "Error"
+- "FirebaseHelper"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Storage"
+- "StorageReference"
+- "String"
+- !private "StringLiteralType"
+- "Void"
+- !private "print"
+depends-member:
+- !private ["So7FIRAuthC", "auth"]
+- !private ["So7FIRAuthC", "createUser"]
+- !private ["So7FIRAuthC", "currentUser"]
+- !private ["So7FIRAuthC", "signIn"]
+- !private ["So7FIRAuthC", "signOut"]
+- !private ["So17FIRAuthDataResultC", "user"]
+- !private ["7CodaBee0B4UserC", "init"]
+- !private ["SK", "count"]
+- !private ["s7CVarArgP", "auth"]
+- !private ["s7CVarArgP", "child"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "createUser"]
+- !private ["s7CVarArgP", "currentUser"]
+- ["s7CVarArgP", "database"]
+- !private ["s7CVarArgP", "exists"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "observe"]
+- !private ["s7CVarArgP", "observeSingleEvent"]
+- !private ["s7CVarArgP", "queryEqual"]
+- !private ["s7CVarArgP", "queryOrdered"]
+- ["s7CVarArgP", "reference"]
+- !private ["s7CVarArgP", "signIn"]
+- !private ["s7CVarArgP", "signOut"]
+- ["s7CVarArgP", "storage"]
+- !private ["s7CVarArgP", "uid"]
+- !private ["s7CVarArgP", "updateChildValues"]
+- !private ["s7CVarArgP", "user"]
+- !private ["Sl", "count"]
+- !private ["SL", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "auth"]
+- !private ["s28CustomDebugStringConvertibleP", "child"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "createUser"]
+- !private ["s28CustomDebugStringConvertibleP", "currentUser"]
+- ["s28CustomDebugStringConvertibleP", "database"]
+- !private ["s28CustomDebugStringConvertibleP", "exists"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "observe"]
+- !private ["s28CustomDebugStringConvertibleP", "observeSingleEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "queryEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "queryOrdered"]
+- ["s28CustomDebugStringConvertibleP", "reference"]
+- !private ["s28CustomDebugStringConvertibleP", "signIn"]
+- !private ["s28CustomDebugStringConvertibleP", "signOut"]
+- ["s28CustomDebugStringConvertibleP", "storage"]
+- !private ["s28CustomDebugStringConvertibleP", "uid"]
+- !private ["s28CustomDebugStringConvertibleP", "updateChildValues"]
+- !private ["s28CustomDebugStringConvertibleP", "user"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s23CustomStringConvertibleP", "auth"]
+- !private ["s23CustomStringConvertibleP", "child"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "createUser"]
+- !private ["s23CustomStringConvertibleP", "currentUser"]
+- ["s23CustomStringConvertibleP", "database"]
+- !private ["s23CustomStringConvertibleP", "exists"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "observe"]
+- !private ["s23CustomStringConvertibleP", "observeSingleEvent"]
+- !private ["s23CustomStringConvertibleP", "queryEqual"]
+- !private ["s23CustomStringConvertibleP", "queryOrdered"]
+- ["s23CustomStringConvertibleP", "reference"]
+- !private ["s23CustomStringConvertibleP", "signIn"]
+- !private ["s23CustomStringConvertibleP", "signOut"]
+- ["s23CustomStringConvertibleP", "storage"]
+- !private ["s23CustomStringConvertibleP", "uid"]
+- !private ["s23CustomStringConvertibleP", "updateChildValues"]
+- !private ["s23CustomStringConvertibleP", "user"]
+- !private ["So16FIRDataEventTypeV", "value"]
+- !private ["So15FIRDataSnapshotC", "exists"]
+- ["So11FIRDatabaseC", "database"]
+- ["So11FIRDatabaseC", "reference"]
+- !private ["So16FIRDatabaseQueryC", "child"]
+- !private ["So16FIRDatabaseQueryC", "observe"]
+- !private ["So16FIRDatabaseQueryC", "observeSingleEvent"]
+- !private ["So16FIRDatabaseQueryC", "queryEqual"]
+- !private ["So16FIRDatabaseQueryC", "queryOrdered"]
+- !private ["So16FIRDatabaseQueryC", "updateChildValues"]
+- !private ["So20FIRDatabaseReferenceC", "child"]
+- !private ["So20FIRDatabaseReferenceC", "observe"]
+- !private ["So20FIRDatabaseReferenceC", "queryOrdered"]
+- !private ["So20FIRDatabaseReferenceC", "updateChildValues"]
+- !private ["Se", "count"]
+- !private ["SE", "count"]
+- !private ["SQ", "auth"]
+- !private ["SQ", "child"]
+- !private ["SQ", "count"]
+- !private ["SQ", "createUser"]
+- !private ["SQ", "currentUser"]
+- ["SQ", "database"]
+- !private ["SQ", "exists"]
+- ["SQ", "init"]
+- !private ["SQ", "observe"]
+- !private ["SQ", "observeSingleEvent"]
+- !private ["SQ", "queryEqual"]
+- !private ["SQ", "queryOrdered"]
+- ["SQ", "reference"]
+- !private ["SQ", "signIn"]
+- !private ["SQ", "signOut"]
+- ["SQ", "storage"]
+- !private ["SQ", "uid"]
+- !private ["SQ", "updateChildValues"]
+- !private ["SQ", "user"]
+- !private ["SQ", "value"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["7CodaBee14FirebaseHelperC", "Auth"]
+- ["7CodaBee14FirebaseHelperC", "AuthDataResult"]
+- ["7CodaBee14FirebaseHelperC", "BeeUser"]
+- ["7CodaBee14FirebaseHelperC", "Bool"]
+- ["7CodaBee14FirebaseHelperC", "Data"]
+- ["7CodaBee14FirebaseHelperC", "Database"]
+- ["7CodaBee14FirebaseHelperC", "DatabaseReference"]
+- ["7CodaBee14FirebaseHelperC", "Error"]
+- ["7CodaBee14FirebaseHelperC", "Storage"]
+- ["7CodaBee14FirebaseHelperC", "StorageReference"]
+- ["7CodaBee14FirebaseHelperC", "String"]
+- ["7CodaBee14FirebaseHelperC", "Void"]
+- !private ["7CodaBee14FirebaseHelperC", "_database"]
+- !private ["7CodaBee14FirebaseHelperC", "_databaseQuestion"]
+- !private ["7CodaBee14FirebaseHelperC", "_databaseUsers"]
+- ["7CodaBee14FirebaseHelperC", "_storage"]
+- !private ["7CodaBee14FirebaseHelperC", "_storageUser"]
+- ["7CodaBee14FirebaseHelperC", "addProfilePicture"]
+- ["7CodaBee14FirebaseHelperC", "completion"]
+- ["7CodaBee14FirebaseHelperC", "connecte"]
+- ["7CodaBee14FirebaseHelperC", "create"]
+- ["7CodaBee14FirebaseHelperC", "getUser"]
+- ["7CodaBee14FirebaseHelperC", "init"]
+- !private ["7CodaBee14FirebaseHelperC", "print"]
+- ["7CodaBee14FirebaseHelperC", "result"]
+- ["7CodaBee14FirebaseHelperC", "signIn"]
+- ["7CodaBee14FirebaseHelperC", "signOut"]
+- ["7CodaBee14FirebaseHelperC", "updateUser"]
+- ["7CodaBee14FirebaseHelperC", "userValues"]
+- ["7CodaBee14FirebaseHelperC", "usernameExist"]
+- !private ["SH", "auth"]
+- !private ["SH", "child"]
+- !private ["SH", "count"]
+- !private ["SH", "createUser"]
+- !private ["SH", "currentUser"]
+- ["SH", "database"]
+- !private ["SH", "exists"]
+- ["SH", "init"]
+- !private ["SH", "observe"]
+- !private ["SH", "observeSingleEvent"]
+- !private ["SH", "queryEqual"]
+- !private ["SH", "queryOrdered"]
+- ["SH", "reference"]
+- !private ["SH", "signIn"]
+- !private ["SH", "signOut"]
+- ["SH", "storage"]
+- !private ["SH", "uid"]
+- !private ["SH", "updateChildValues"]
+- !private ["SH", "user"]
+- !private ["SH", "value"]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So8NSObjectC", "auth"]
+- !private ["So8NSObjectC", "child"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "createUser"]
+- !private ["So8NSObjectC", "currentUser"]
+- ["So8NSObjectC", "database"]
+- !private ["So8NSObjectC", "exists"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "observe"]
+- !private ["So8NSObjectC", "observeSingleEvent"]
+- !private ["So8NSObjectC", "queryEqual"]
+- !private ["So8NSObjectC", "queryOrdered"]
+- ["So8NSObjectC", "reference"]
+- !private ["So8NSObjectC", "signIn"]
+- !private ["So8NSObjectC", "signOut"]
+- ["So8NSObjectC", "storage"]
+- !private ["So8NSObjectC", "uid"]
+- !private ["So8NSObjectC", "updateChildValues"]
+- !private ["So8NSObjectC", "user"]
+- !private ["So8NSObjectP", "auth"]
+- !private ["So8NSObjectP", "child"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "createUser"]
+- !private ["So8NSObjectP", "currentUser"]
+- ["So8NSObjectP", "database"]
+- !private ["So8NSObjectP", "exists"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "observe"]
+- !private ["So8NSObjectP", "observeSingleEvent"]
+- !private ["So8NSObjectP", "queryEqual"]
+- !private ["So8NSObjectP", "queryOrdered"]
+- ["So8NSObjectP", "reference"]
+- !private ["So8NSObjectP", "signIn"]
+- !private ["So8NSObjectP", "signOut"]
+- ["So8NSObjectP", "storage"]
+- !private ["So8NSObjectP", "uid"]
+- !private ["So8NSObjectP", "updateChildValues"]
+- !private ["So8NSObjectP", "user"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So8NSStringC", "count"]
+- !private ["Sm", "count"]
+- !private ["SY", "value"]
+- !private ["ST", "count"]
+- ["So10FIRStorageC", "reference"]
+- ["So10FIRStorageC", "storage"]
+- ["So19FIRStorageReferenceC", "init"]
+- !private ["SS", "count"]
+- !private ["Sy", "count"]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["So7FIRUserC", "uid"]
+- !private ["So11FIRUserInfoP", "uid"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "child"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentUser"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "database"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "exists"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observe"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observeSingleEvent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queryEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queryOrdered"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "reference"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signIn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signOut"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "storage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateChildValues"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "user"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+depends-nominal:
+- !private "So7FIRAuthC"
+- !private "So17FIRAuthDataResultC"
+- !private "7CodaBee0B4UserC"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "So16FIRDataEventTypeV"
+- !private "So15FIRDataSnapshotC"
+- "So11FIRDatabaseC"
+- !private "So16FIRDatabaseQueryC"
+- !private "So20FIRDatabaseReferenceC"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "7CodaBee14FirebaseHelperC"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- "So10FIRStorageC"
+- "So19FIRStorageReferenceC"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So7FIRUserC"
+- !private "So11FIRUserInfoP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Modules/InteractiveSideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Headers/InteractiveSideMenu-umbrella.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Headers/InteractiveSideMenu-Swift.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "779f72b2bf0f9eb931c57ee0926b11d4"

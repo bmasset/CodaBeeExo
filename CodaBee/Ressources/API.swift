@@ -8,5 +8,5 @@
 
 import Foundation
 
-let API_KEY = "AIzaSyDnwQz2_XZXLghd6gcTdaY6QpM6wMuBXVQ"
+let API_KEY = ""
 

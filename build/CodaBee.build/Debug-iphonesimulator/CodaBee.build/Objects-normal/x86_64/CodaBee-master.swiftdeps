@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "6f4e5949eb16142218457b27f0e3d94b"
-build_time: [1565025039, 146418000]
+build_time: [1565025271, 564712000]
 inputs:
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/FirebaseHelper.swift": [1565022109, 373510824]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/TableViewCell/MenuCell.swift": [1563890443, 0]
@@ -18,7 +18,7 @@ inputs:
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/CustomView.swift": [1563896898, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Actus/ActusController.swift": [1564041144, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/ExtensionUI.swift": [1564741079, 0]
-  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Nav.swift": [1563898169, 0]
+  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Nav.swift": [1565025045, 844740157]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Menus/RootController.swift": [1563885486, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/Article.swift": [1563901833, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Ressources/API.swift": [1565023873, 107702547]
