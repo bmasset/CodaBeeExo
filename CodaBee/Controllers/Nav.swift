@@ -18,8 +18,5 @@ class Nav: UINavigationController {
             .foregroundColor: HONEY_COLOR,
             .font: UIFont.italicSystemFont(ofSize: 20)
         ]
-
     }
-    
-
 }

@@ -16,6 +16,8 @@ depends-top-level:
 - !private "DATE_FORMAT"
 - "Date"
 - !private "DateFormatter"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - !private "LOCALE"
 - !private "Locale"
 - "String"
