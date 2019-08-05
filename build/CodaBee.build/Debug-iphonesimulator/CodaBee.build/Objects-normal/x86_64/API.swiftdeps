@@ -6,6 +6,7 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "API_KEY"
+- "StringLiteralType"
 depends-member:
 depends-nominal:
 depends-dynamic-lookup:

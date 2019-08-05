@@ -55,8 +55,6 @@ extension String {
             }
             return base
         }
-
-
         return "A l'instant."
     }
 }
