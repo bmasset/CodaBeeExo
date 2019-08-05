@@ -99,9 +99,15 @@ extension MenuController: UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let main = menuContainerViewController {
-            main.selectContentViewController(main.contentViewControllers[indexPath.row])
-            main.hideSideMenu()
+        if items[indexPath.row] == "Forum", FirebaseHelper().connecte() == nil {
+            AlertHelper().erreurSimple(self , message: "Vous devez être connecté pour accéder au Forum"  )
+        } else {
+            
+            if let main = menuContainerViewController {
+                main.selectContentViewController(main.contentViewControllers[indexPath.row])
+                main.hideSideMenu()
+            
+            }
         }
     }
 }

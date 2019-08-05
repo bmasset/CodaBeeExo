@@ -32,11 +32,14 @@ depends-top-level:
 - "CustomView"
 - !private "DispatchQueue"
 - !private "FirebaseHelper"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - "MoveableController"
 - "NSLayoutConstraint"
 - "Notification"
 - "ProfileController"
 - "RoundIV"
+- !private "StringLiteralType"
 - "UIButton"
 - !private "UIImage"
 - "UIImagePickerController"
@@ -258,6 +261,7 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "image"]
 - !private ["s23ExpressibleByNilLiteralP", "placeholder"]
 - !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["7CodaBee14FirebaseHelperC", "addProfilePicture"]
 - !private ["7CodaBee14FirebaseHelperC", "init"]
 - !private ["7CodaBee14FirebaseHelperC", "signOut"]
 - !private ["7CodaBee14FirebaseHelperC", "updateUser"]

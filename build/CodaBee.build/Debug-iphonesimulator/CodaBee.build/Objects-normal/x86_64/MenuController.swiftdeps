@@ -18,6 +18,7 @@ depends-top-level:
 - !private "!="
 - !private "=="
 - !private "??"
+- !private "AlertHelper"
 - "AssignmentPrecedence"
 - "BeeUser"
 - "Bool"
@@ -25,14 +26,17 @@ depends-top-level:
 - "CastingPrecedence"
 - !private "DispatchQueue"
 - !private "FirebaseHelper"
+- !private "FloatLiteralType"
 - "IndexPath"
 - "Int"
+- !private "IntegerLiteralType"
 - !private "MenuCell"
 - "MenuController"
 - "MenuViewController"
 - !private "Nav"
 - !private "ProfileController"
 - "RoundIV"
+- "StringLiteralType"
 - "UIButton"
 - "UILabel"
 - "UIStoryboardSegue"
@@ -42,6 +46,8 @@ depends-top-level:
 - "UITableViewDelegate"
 - !private "print"
 depends-member:
+- !private ["7CodaBee11AlertHelperC", "erreurSimple"]
+- !private ["7CodaBee11AlertHelperC", "init"]
 - !private ["Sa", "count"]
 - !private ["Sa", "subscript"]
 - !private ["7CodaBee0B4UserC", "imageUrl"]
@@ -58,6 +64,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "setTitle"]
 - !private ["So15CALayerDelegateP", "setup"]
 - !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "AlertHelper"]
 - !private ["s7CVarArgP", "DispatchQueue"]
 - !private ["s7CVarArgP", "FirebaseHelper"]
 - !private ["s7CVarArgP", "UITableViewCell"]
@@ -122,6 +129,7 @@ depends-member:
 - !private ["SL", "row"]
 - !private ["10Foundation15ContiguousBytesP", "count"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "AlertHelper"]
 - !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
 - !private ["s28CustomDebugStringConvertibleP", "FirebaseHelper"]
 - !private ["s28CustomDebugStringConvertibleP", "UITableViewCell"]
@@ -192,6 +200,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "setup"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "AlertHelper"]
 - !private ["s23CustomStringConvertibleP", "DispatchQueue"]
 - !private ["s23CustomStringConvertibleP", "FirebaseHelper"]
 - !private ["s23CustomStringConvertibleP", "UITableViewCell"]
@@ -279,6 +288,7 @@ depends-member:
 - !private ["SE", "setup"]
 - !private ["SE", "subscript"]
 - !private ["SE", "text"]
+- !private ["SQ", "AlertHelper"]
 - !private ["SQ", "DispatchQueue"]
 - !private ["SQ", "FirebaseHelper"]
 - !private ["SQ", "UITableViewCell"]
@@ -354,6 +364,7 @@ depends-member:
 - !private ["7CodaBee14FirebaseHelperC", "connecte"]
 - !private ["7CodaBee14FirebaseHelperC", "getUser"]
 - !private ["7CodaBee14FirebaseHelperC", "init"]
+- !private ["SH", "AlertHelper"]
 - !private ["SH", "DispatchQueue"]
 - !private ["SH", "FirebaseHelper"]
 - !private ["SH", "UITableViewCell"]
@@ -418,6 +429,7 @@ depends-member:
 - !private ["19InteractiveSideMenu0C23ContainerViewControllerC", "contentViewControllers"]
 - !private ["19InteractiveSideMenu0C23ContainerViewControllerC", "hideSideMenu"]
 - !private ["19InteractiveSideMenu0C23ContainerViewControllerC", "selectContentViewController"]
+- !private ["7CodaBee14MenuControllerC", "AlertHelper"]
 - ["7CodaBee14MenuControllerC", "BeeUser"]
 - ["7CodaBee14MenuControllerC", "Bool"]
 - ["7CodaBee14MenuControllerC", "CGFloat"]
@@ -471,6 +483,7 @@ depends-member:
 - ["7CodaBee14MenuControllerC", "viewForZooming"]
 - ["7CodaBee14MenuControllerC", "viewForZoomingInScrollView"]
 - ["7CodaBee14MenuControllerC", "viewWillAppear"]
+- !private ["19InteractiveSideMenu0C14ViewControllerC", "AlertHelper"]
 - ["19InteractiveSideMenu0C14ViewControllerC", "BeeUser"]
 - ["19InteractiveSideMenu0C14ViewControllerC", "Bool"]
 - ["19InteractiveSideMenu0C14ViewControllerC", "CGFloat"]
@@ -530,6 +543,7 @@ depends-member:
 - !private ["SM", "subscript"]
 - !private ["10Foundation19MutableDataProtocolP", "count"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "AlertHelper"]
 - !private ["So8NSCodingP", "DispatchQueue"]
 - !private ["So8NSCodingP", "FirebaseHelper"]
 - !private ["So8NSCodingP", "UITableViewCell"]
@@ -584,6 +598,7 @@ depends-member:
 - !private ["So8NSCodingP", "viewWillAppear"]
 - !private ["So9NSCopyingP", "clear"]
 - !private ["So9NSCopyingP", "darkGray"]
+- !private ["So26NSExtensionRequestHandlingP", "AlertHelper"]
 - !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
 - !private ["So26NSExtensionRequestHandlingP", "FirebaseHelper"]
 - !private ["So26NSExtensionRequestHandlingP", "UITableViewCell"]
@@ -630,6 +645,7 @@ depends-member:
 - !private ["So21NSItemProviderReadingP", "darkGray"]
 - !private ["So21NSItemProviderWritingP", "clear"]
 - !private ["So21NSItemProviderWritingP", "darkGray"]
+- !private ["So8NSObjectC", "AlertHelper"]
 - ["So8NSObjectC", "BeeUser"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "CGFloat"]
@@ -700,6 +716,7 @@ depends-member:
 - ["So8NSObjectC", "viewForZooming"]
 - ["So8NSObjectC", "viewForZoomingInScrollView"]
 - ["So8NSObjectC", "viewWillAppear"]
+- !private ["So8NSObjectP", "AlertHelper"]
 - !private ["So8NSObjectP", "DispatchQueue"]
 - !private ["So8NSObjectP", "FirebaseHelper"]
 - !private ["So8NSObjectP", "UITableViewCell"]
@@ -804,6 +821,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "setTitle"]
 - !private ["So12UIAppearanceP", "setup"]
 - !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "AlertHelper"]
 - !private ["So21UIAppearanceContainerP", "DispatchQueue"]
 - !private ["So21UIAppearanceContainerP", "FirebaseHelper"]
 - !private ["So21UIAppearanceContainerP", "UITableViewCell"]
@@ -857,6 +875,7 @@ depends-member:
 - !private ["So8UIButtonC", "setTitle"]
 - !private ["So7UIColorC", "clear"]
 - !private ["So7UIColorC", "darkGray"]
+- !private ["So18UIContentContainerP", "AlertHelper"]
 - !private ["So18UIContentContainerP", "DispatchQueue"]
 - !private ["So18UIContentContainerP", "FirebaseHelper"]
 - !private ["So18UIContentContainerP", "UITableViewCell"]
@@ -923,6 +942,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "setTitle"]
 - !private ["So13UIDynamicItemP", "setup"]
 - !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "AlertHelper"]
 - !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
 - !private ["So18UIFocusEnvironmentP", "FirebaseHelper"]
 - !private ["So18UIFocusEnvironmentP", "UITableViewCell"]
@@ -1002,6 +1022,7 @@ depends-member:
 - !private ["So7UILabelC", "text"]
 - !private ["So22UINavigationControllerC", "topViewController"]
 - !private ["So30UINavigationControllerDelegateP", "beeUser"]
+- !private ["So30UIPasteConfigurationSupportingP", "AlertHelper"]
 - !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
 - !private ["So30UIPasteConfigurationSupportingP", "FirebaseHelper"]
 - !private ["So30UIPasteConfigurationSupportingP", "UITableViewCell"]
@@ -1052,6 +1073,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "viewForZooming"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZoomingInScrollView"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- !private ["So11UIResponderC", "AlertHelper"]
 - ["So11UIResponderC", "BeeUser"]
 - ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "CGFloat"]
@@ -1116,6 +1138,7 @@ depends-member:
 - ["So11UIResponderC", "viewForZooming"]
 - ["So11UIResponderC", "viewForZoomingInScrollView"]
 - ["So11UIResponderC", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "AlertHelper"]
 - !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
 - !private ["So30UIResponderStandardEditActionsP", "FirebaseHelper"]
 - !private ["So30UIResponderStandardEditActionsP", "UITableViewCell"]
@@ -1170,6 +1193,7 @@ depends-member:
 - !private ["So12UIScrollViewC", "delegate"]
 - !private ["So12UIScrollViewC", "dequeueReusableCell"]
 - !private ["So12UIScrollViewC", "setup"]
+- !private ["So20UIScrollViewDelegateP", "AlertHelper"]
 - !private ["So20UIScrollViewDelegateP", "DispatchQueue"]
 - !private ["So20UIScrollViewDelegateP", "FirebaseHelper"]
 - !private ["So20UIScrollViewDelegateP", "UITableViewCell"]
@@ -1210,6 +1234,7 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "setup"]
+- !private ["So16UIStateRestoringP", "AlertHelper"]
 - !private ["So16UIStateRestoringP", "DispatchQueue"]
 - !private ["So16UIStateRestoringP", "FirebaseHelper"]
 - !private ["So16UIStateRestoringP", "UITableViewCell"]
@@ -1260,6 +1285,7 @@ depends-member:
 - !private ["So11UITableViewC", "setup"]
 - !private ["So15UITableViewCellC", "init"]
 - !private ["So15UITableViewCellC", "setup"]
+- !private ["So21UITableViewDataSourceP", "AlertHelper"]
 - !private ["So21UITableViewDataSourceP", "DispatchQueue"]
 - !private ["So21UITableViewDataSourceP", "FirebaseHelper"]
 - !private ["So21UITableViewDataSourceP", "UITableViewCell"]
@@ -1295,6 +1321,7 @@ depends-member:
 - !private ["So21UITableViewDataSourceP", "view"]
 - ["So21UITableViewDataSourceP", "viewForZooming"]
 - ["So21UITableViewDataSourceP", "viewForZoomingInScrollView"]
+- !private ["So19UITableViewDelegateP", "AlertHelper"]
 - !private ["So19UITableViewDelegateP", "DispatchQueue"]
 - !private ["So19UITableViewDelegateP", "FirebaseHelper"]
 - !private ["So19UITableViewDelegateP", "UITableViewCell"]
@@ -1330,6 +1357,7 @@ depends-member:
 - !private ["So19UITableViewDelegateP", "view"]
 - ["So19UITableViewDelegateP", "viewForZooming"]
 - ["So19UITableViewDelegateP", "viewForZoomingInScrollView"]
+- !private ["So18UITraitEnvironmentP", "AlertHelper"]
 - !private ["So18UITraitEnvironmentP", "DispatchQueue"]
 - !private ["So18UITraitEnvironmentP", "FirebaseHelper"]
 - !private ["So18UITraitEnvironmentP", "UITableViewCell"]
@@ -1380,6 +1408,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "viewForZooming"]
 - ["So18UITraitEnvironmentP", "viewForZoomingInScrollView"]
 - !private ["So18UITraitEnvironmentP", "viewWillAppear"]
+- !private ["So23UIUserActivityRestoringP", "AlertHelper"]
 - !private ["So23UIUserActivityRestoringP", "DispatchQueue"]
 - !private ["So23UIUserActivityRestoringP", "FirebaseHelper"]
 - !private ["So23UIUserActivityRestoringP", "UITableViewCell"]
@@ -1439,6 +1468,7 @@ depends-member:
 - !private ["So6UIViewC", "setTitle"]
 - !private ["So6UIViewC", "setup"]
 - !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "AlertHelper"]
 - ["So16UIViewControllerC", "BeeUser"]
 - ["So16UIViewControllerC", "Bool"]
 - ["So16UIViewControllerC", "CGFloat"]
@@ -1505,6 +1535,7 @@ depends-member:
 - !private ["s19_HasContiguousBytesP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AlertHelper"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "FirebaseHelper"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UITableViewCell"]
@@ -1582,6 +1613,7 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setup"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
 depends-nominal:
+- !private "7CodaBee11AlertHelperC"
 - !private "Sa"
 - !private "7CodaBee0B4UserC"
 - !private "SK"

@@ -1,8 +1,8 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "6f4e5949eb16142218457b27f0e3d94b"
-build_time: [1565015654, 424504000]
+build_time: [1565023102, 692918000]
 inputs:
-  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/FirebaseHelper.swift": [1565013678, 363022658]
+  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/FirebaseHelper.swift": [1565022109, 373510824]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/TableViewCell/MenuCell.swift": [1563890443, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/BeeUser.swift": [1564663199, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Forum/ForumController.swift": [1563898532, 0]
@@ -14,7 +14,7 @@ inputs:
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/ArticleCell.swift": [1564741000, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/RSSParser.swift": [1563959401, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/ExtensionType.swift": [1564140939, 0]
-  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Menus/MenuController.swift": [1564849357, 0]
+  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Menus/MenuController.swift": [1565023102, 473588308]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/CustomView.swift": [1563896898, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Actus/ActusController.swift": [1564041144, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/ExtensionUI.swift": [1564741079, 0]
@@ -22,7 +22,7 @@ inputs:
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Menus/RootController.swift": [1563885486, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/Article.swift": [1563901833, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Ressources/API.swift": [1564311387, 0]
-  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Menus/ProfileController.swift": [1565015360, 125326114]
+  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Menus/ProfileController.swift": [1565022463, 17680363]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/AppDelegate.swift": [1564741445, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Videos/VideoController.swift": [1564397947, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/LoadingImageView.swift": [1565003965, 38877024]
