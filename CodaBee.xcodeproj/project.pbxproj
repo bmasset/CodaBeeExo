@@ -35,7 +35,8 @@
 		64486D5C22F8662D00418CF8 /* Forum.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64486D5B22F8662D00418CF8 /* Forum.storyboard */; };
 		64486D5E22F8663D00418CF8 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64486D5D22F8663D00418CF8 /* Menu.storyboard */; };
 		64486D6022F8665900418CF8 /* Actus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64486D5F22F8665900418CF8 /* Actus.storyboard */; };
-		64486D6422F8761A00418CF8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64486D6322F8761A00418CF8 /* Info.plist */; };
+		64ABFCC322FA25A000B69512 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64ABFCC222FA259F00B69512 /* Info.plist */; };
+		64FB7B2122F9E46800C3484B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB7B2022F9E46800C3484B /* Question.swift */; };
 		A111303622ECBD86000F574A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111303522ECBD86000F574A /* API.swift */; };
 		A111303822ECBD93000F574A /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111303722ECBD93000F574A /* Constantes.swift */; };
 		A1143CC222E4773500935497 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1143CC122E4773500935497 /* Default-568h@2x.png */; };
@@ -79,7 +80,8 @@
 		64486D5B22F8662D00418CF8 /* Forum.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Forum.storyboard; sourceTree = "<group>"; };
 		64486D5D22F8663D00418CF8 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		64486D5F22F8665900418CF8 /* Actus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Actus.storyboard; path = CodaBee/Storyboards/Actus.storyboard; sourceTree = SOURCE_ROOT; };
-		64486D6322F8761A00418CF8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64ABFCC222FA259F00B69512 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64FB7B2022F9E46800C3484B /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		80E68F8B15311E451E88DD5D /* Pods-CodaBee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodaBee.release.xcconfig"; path = "Target Support Files/Pods-CodaBee/Pods-CodaBee.release.xcconfig"; sourceTree = "<group>"; };
 		9A91C98299F87F10D5218699 /* Pods-CodaBee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodaBee.debug.xcconfig"; path = "Target Support Files/Pods-CodaBee/Pods-CodaBee.debug.xcconfig"; sourceTree = "<group>"; };
 		A111303522ECBD86000F574A /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				64486D2B22F848E600418CF8 /* BeeUser.swift */,
 				64486D3522F8495000418CF8 /* FirebaseHelper.swift */,
 				64486D3722F8496200418CF8 /* AlertHelper.swift */,
+				64FB7B2022F9E46800C3484B /* Question.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -266,7 +269,7 @@
 			isa = PBXGroup;
 			children = (
 				A1FF63A322E304C200B2BAA8 /* AppDelegate.swift */,
-				64486D6322F8761A00418CF8 /* Info.plist */,
+				64ABFCC222FA259F00B69512 /* Info.plist */,
 				A1E0BF1222E38791007EE13E /* Models */,
 				A1E0BF1522E387CF007EE13E /* Views */,
 				A1E0BF1422E387B6007EE13E /* Controllers */,
@@ -339,7 +342,7 @@
 			files = (
 				64486D5C22F8662D00418CF8 /* Forum.storyboard in Resources */,
 				A1BF009F22EF0AE600DA4F0D /* GoogleService-Info.plist in Resources */,
-				64486D6422F8761A00418CF8 /* Info.plist in Resources */,
+				64ABFCC322FA25A000B69512 /* Info.plist in Resources */,
 				64486D5E22F8663D00418CF8 /* Menu.storyboard in Resources */,
 				A1FF63AE22E304C500B2BAA8 /* LaunchScreen.storyboard in Resources */,
 				A1FF63AB22E304C500B2BAA8 /* Assets.xcassets in Resources */,
@@ -413,6 +416,7 @@
 				A1CFEE1522E5B702007DF37C /* MenuController.swift in Sources */,
 				64486D4222F849B400418CF8 /* CustomView.swift in Sources */,
 				64486D4E22F84A8B00418CF8 /* ActusController.swift in Sources */,
+				64FB7B2122F9E46800C3484B /* Question.swift in Sources */,
 				64486D4022F849A700418CF8 /* ExtensionUI.swift in Sources */,
 				64486D4622F84A0C00418CF8 /* Nav.swift in Sources */,
 				64486D5822F865AD00418CF8 /* RootController.swift in Sources */,

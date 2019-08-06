@@ -6,12 +6,17 @@ provides-nominal:
 provides-member:
 - ["7CodaBee15ForumControllerC", ""]
 provides-dynamic-lookup:
+- "addQuestion"
+- "searchBar"
 - "showMenu"
+- "tableView"
 - "viewDidLoad"
 depends-top-level:
 - "AssignmentPrecedence"
 - "ForumController"
 - "SideMenuItemContent"
+- "UISearchBar"
+- "UITableView"
 - "UIViewController"
 depends-member:
 - ["s7CVarArgP", ""]
@@ -34,10 +39,15 @@ depends-member:
 - ["SQ", "showSideMenu"]
 - !private ["SQ", "title"]
 - !private ["SQ", "viewDidLoad"]
+- ["7CodaBee15ForumControllerC", "UISearchBar"]
+- ["7CodaBee15ForumControllerC", "UITableView"]
+- ["7CodaBee15ForumControllerC", "addQuestion"]
 - ["7CodaBee15ForumControllerC", "deinit"]
 - ["7CodaBee15ForumControllerC", "init"]
+- ["7CodaBee15ForumControllerC", "searchBar"]
 - ["7CodaBee15ForumControllerC", "showMenu"]
 - ["7CodaBee15ForumControllerC", "showSideMenu"]
+- ["7CodaBee15ForumControllerC", "tableView"]
 - !private ["7CodaBee15ForumControllerC", "title"]
 - ["7CodaBee15ForumControllerC", "viewDidLoad"]
 - ["SH", ""]
@@ -55,9 +65,14 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "showSideMenu"]
 - !private ["So26NSExtensionRequestHandlingP", "title"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "UISearchBar"]
+- ["So8NSObjectC", "UITableView"]
+- ["So8NSObjectC", "addQuestion"]
 - ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "searchBar"]
 - ["So8NSObjectC", "showMenu"]
 - ["So8NSObjectC", "showSideMenu"]
+- ["So8NSObjectC", "tableView"]
 - !private ["So8NSObjectC", "title"]
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectP", ""]
@@ -88,9 +103,14 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "showSideMenu"]
 - !private ["So30UIPasteConfigurationSupportingP", "title"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "UISearchBar"]
+- ["So11UIResponderC", "UITableView"]
+- ["So11UIResponderC", "addQuestion"]
 - ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "searchBar"]
 - ["So11UIResponderC", "showMenu"]
 - ["So11UIResponderC", "showSideMenu"]
+- ["So11UIResponderC", "tableView"]
 - !private ["So11UIResponderC", "title"]
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", ""]
@@ -113,10 +133,15 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "showSideMenu"]
 - !private ["So23UIUserActivityRestoringP", "title"]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So16UIViewControllerC", "UISearchBar"]
+- ["So16UIViewControllerC", "UITableView"]
 - ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "addQuestion"]
 - ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "searchBar"]
 - ["So16UIViewControllerC", "showMenu"]
 - ["So16UIViewControllerC", "showSideMenu"]
+- ["So16UIViewControllerC", "tableView"]
 - !private ["So16UIViewControllerC", "title"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
@@ -288,17 +313,17 @@ depends-external:
 - "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "4f08b772a8f74f7fd75ca649f43dae6d"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b86fa3f4a865a1a7b9fa18073d096cb1"

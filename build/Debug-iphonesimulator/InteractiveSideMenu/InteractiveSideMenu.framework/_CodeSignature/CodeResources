@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5Un+1bHgXmDRJXVSaqXNchWkx3c=
+		6YvJUshj1ETEG7PewhaQKcApd0A=
 		</data>
 		<key>Modules/InteractiveSideMenu.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/InteractiveSideMenu.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		tIbJWHEN0xT1bOcAQu0WzIHupsM=
+		RwRqxhD5hFyfakca89nLrpYv7vA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -68,11 +68,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tIbJWHEN0xT1bOcAQu0WzIHupsM=
+			RwRqxhD5hFyfakca89nLrpYv7vA=
 			</data>
 			<key>hash2</key>
 			<data>
-			8v7tX5hngEE32awo2+o6Dc1r+hW8wKc6H8UJCr8d8bk=
+			EijeWmFzmpKnWZ4OzFDqbtRZotJfF3zQAePDsBPIjIc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

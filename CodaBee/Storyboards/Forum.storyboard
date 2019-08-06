@@ -17,7 +17,40 @@
                     <view key="view" contentMode="scaleToFill" id="497-fi-zTM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="lEF-v5-fk6">
+                                <rect key="frame" x="0.0" y="88" width="414" height="50"/>
+                                <color key="backgroundColor" red="0.86413043739999995" green="0.7058266997" blue="0.090261660519999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="UHw-om-aBJ"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6wv-dJ-Yhj">
+                                <rect key="frame" x="0.0" y="138" width="414" height="724"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="200" id="9Cq-dl-Tbr">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="200"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Cq-dl-Tbr" id="w7F-id-Rbj">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="199.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jXx-Ed-OjA" firstAttribute="trailing" secondItem="6wv-dJ-Yhj" secondAttribute="trailing" id="Ik6-jN-Kft"/>
+                            <constraint firstItem="lEF-v5-fk6" firstAttribute="leading" secondItem="jXx-Ed-OjA" secondAttribute="leading" id="PZG-wb-jyf"/>
+                            <constraint firstItem="6wv-dJ-Yhj" firstAttribute="top" secondItem="lEF-v5-fk6" secondAttribute="bottom" id="R8D-Bo-MTR"/>
+                            <constraint firstItem="lEF-v5-fk6" firstAttribute="top" secondItem="jXx-Ed-OjA" secondAttribute="top" id="kMR-vW-Qo6"/>
+                            <constraint firstItem="6wv-dJ-Yhj" firstAttribute="leading" secondItem="jXx-Ed-OjA" secondAttribute="leading" id="rr9-Cy-16M"/>
+                            <constraint firstItem="jXx-Ed-OjA" firstAttribute="bottom" secondItem="6wv-dJ-Yhj" secondAttribute="bottom" id="v93-yS-yXv"/>
+                            <constraint firstItem="lEF-v5-fk6" firstAttribute="trailing" secondItem="jXx-Ed-OjA" secondAttribute="trailing" id="xRA-EU-V9E"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jXx-Ed-OjA"/>
                     </view>
                     <navigationItem key="navigationItem" id="eZN-Ax-aoc">
@@ -26,11 +59,20 @@
                                 <action selector="showMenu:" destination="33B-ld-VKN" id="pry-Up-6zh"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="lw1-0i-WWl">
+                            <connections>
+                                <action selector="addQuestion:" destination="33B-ld-VKN" id="qnW-bS-d9L"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="searchBar" destination="lEF-v5-fk6" id="ldY-U9-m10"/>
+                        <outlet property="tableView" destination="6wv-dJ-Yhj" id="F1z-A1-hVF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BHC-uN-IgD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="964" y="110"/>
+            <point key="canvasLocation" x="963.76811594202911" y="109.82142857142857"/>
         </scene>
         <!--Nav-->
         <scene sceneID="rW5-Kp-ppJ">

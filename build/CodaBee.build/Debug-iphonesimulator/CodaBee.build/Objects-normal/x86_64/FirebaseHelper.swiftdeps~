@@ -7,6 +7,7 @@ provides-member:
 - ["7CodaBee14FirebaseHelperC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "=="
 - !private ">"
 - "AssignmentPrecedence"
 - !private "Auth"
@@ -42,10 +43,11 @@ depends-member:
 - !private ["s7CVarArgP", "createUser"]
 - !private ["s7CVarArgP", "currentUser"]
 - ["s7CVarArgP", "database"]
+- !private ["s7CVarArgP", "downloadURL"]
 - !private ["s7CVarArgP", "exists"]
-- ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "observe"]
 - !private ["s7CVarArgP", "observeSingleEvent"]
+- !private ["s7CVarArgP", "putData"]
 - !private ["s7CVarArgP", "queryEqual"]
 - !private ["s7CVarArgP", "queryOrdered"]
 - ["s7CVarArgP", "reference"]
@@ -57,16 +59,18 @@ depends-member:
 - !private ["s7CVarArgP", "user"]
 - !private ["Sl", "count"]
 - !private ["SL", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
 - !private ["s28CustomDebugStringConvertibleP", "auth"]
 - !private ["s28CustomDebugStringConvertibleP", "child"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "createUser"]
 - !private ["s28CustomDebugStringConvertibleP", "currentUser"]
 - ["s28CustomDebugStringConvertibleP", "database"]
+- !private ["s28CustomDebugStringConvertibleP", "downloadURL"]
 - !private ["s28CustomDebugStringConvertibleP", "exists"]
-- ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "observe"]
 - !private ["s28CustomDebugStringConvertibleP", "observeSingleEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "putData"]
 - !private ["s28CustomDebugStringConvertibleP", "queryEqual"]
 - !private ["s28CustomDebugStringConvertibleP", "queryOrdered"]
 - ["s28CustomDebugStringConvertibleP", "reference"]
@@ -77,16 +81,18 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "updateChildValues"]
 - !private ["s28CustomDebugStringConvertibleP", "user"]
 - !private ["s17CustomReflectableP", "count"]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
 - !private ["s23CustomStringConvertibleP", "auth"]
 - !private ["s23CustomStringConvertibleP", "child"]
 - !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "createUser"]
 - !private ["s23CustomStringConvertibleP", "currentUser"]
 - ["s23CustomStringConvertibleP", "database"]
+- !private ["s23CustomStringConvertibleP", "downloadURL"]
 - !private ["s23CustomStringConvertibleP", "exists"]
-- ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "observe"]
 - !private ["s23CustomStringConvertibleP", "observeSingleEvent"]
+- !private ["s23CustomStringConvertibleP", "putData"]
 - !private ["s23CustomStringConvertibleP", "queryEqual"]
 - !private ["s23CustomStringConvertibleP", "queryOrdered"]
 - ["s23CustomStringConvertibleP", "reference"]
@@ -110,18 +116,22 @@ depends-member:
 - !private ["So20FIRDatabaseReferenceC", "observe"]
 - !private ["So20FIRDatabaseReferenceC", "queryOrdered"]
 - !private ["So20FIRDatabaseReferenceC", "updateChildValues"]
+- !private ["Se", "absoluteString"]
 - !private ["Se", "count"]
+- !private ["SE", "absoluteString"]
 - !private ["SE", "count"]
+- !private ["SQ", "absoluteString"]
 - !private ["SQ", "auth"]
 - !private ["SQ", "child"]
 - !private ["SQ", "count"]
 - !private ["SQ", "createUser"]
 - !private ["SQ", "currentUser"]
 - ["SQ", "database"]
+- !private ["SQ", "downloadURL"]
 - !private ["SQ", "exists"]
-- ["SQ", "init"]
 - !private ["SQ", "observe"]
 - !private ["SQ", "observeSingleEvent"]
+- !private ["SQ", "putData"]
 - !private ["SQ", "queryEqual"]
 - !private ["SQ", "queryOrdered"]
 - ["SQ", "reference"]
@@ -152,7 +162,7 @@ depends-member:
 - !private ["7CodaBee14FirebaseHelperC", "_database"]
 - !private ["7CodaBee14FirebaseHelperC", "_databaseQuestion"]
 - !private ["7CodaBee14FirebaseHelperC", "_databaseUsers"]
-- ["7CodaBee14FirebaseHelperC", "_storage"]
+- !private ["7CodaBee14FirebaseHelperC", "_storage"]
 - !private ["7CodaBee14FirebaseHelperC", "_storageUser"]
 - ["7CodaBee14FirebaseHelperC", "addProfilePicture"]
 - ["7CodaBee14FirebaseHelperC", "completion"]
@@ -167,16 +177,18 @@ depends-member:
 - ["7CodaBee14FirebaseHelperC", "updateUser"]
 - ["7CodaBee14FirebaseHelperC", "userValues"]
 - ["7CodaBee14FirebaseHelperC", "usernameExist"]
+- !private ["SH", "absoluteString"]
 - !private ["SH", "auth"]
 - !private ["SH", "child"]
 - !private ["SH", "count"]
 - !private ["SH", "createUser"]
 - !private ["SH", "currentUser"]
 - ["SH", "database"]
+- !private ["SH", "downloadURL"]
 - !private ["SH", "exists"]
-- ["SH", "init"]
 - !private ["SH", "observe"]
 - !private ["SH", "observeSingleEvent"]
+- !private ["SH", "putData"]
 - !private ["SH", "queryEqual"]
 - !private ["SH", "queryOrdered"]
 - ["SH", "reference"]
@@ -200,10 +212,11 @@ depends-member:
 - !private ["So8NSObjectC", "createUser"]
 - !private ["So8NSObjectC", "currentUser"]
 - ["So8NSObjectC", "database"]
+- !private ["So8NSObjectC", "downloadURL"]
 - !private ["So8NSObjectC", "exists"]
-- ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "observe"]
 - !private ["So8NSObjectC", "observeSingleEvent"]
+- !private ["So8NSObjectC", "putData"]
 - !private ["So8NSObjectC", "queryEqual"]
 - !private ["So8NSObjectC", "queryOrdered"]
 - ["So8NSObjectC", "reference"]
@@ -219,10 +232,11 @@ depends-member:
 - !private ["So8NSObjectP", "createUser"]
 - !private ["So8NSObjectP", "currentUser"]
 - ["So8NSObjectP", "database"]
+- !private ["So8NSObjectP", "downloadURL"]
 - !private ["So8NSObjectP", "exists"]
-- ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "observe"]
 - !private ["So8NSObjectP", "observeSingleEvent"]
+- !private ["So8NSObjectP", "putData"]
 - !private ["So8NSObjectP", "queryEqual"]
 - !private ["So8NSObjectP", "queryOrdered"]
 - ["So8NSObjectP", "reference"]
@@ -236,20 +250,26 @@ depends-member:
 - !private ["So8NSStringC", "count"]
 - !private ["Sm", "count"]
 - !private ["SY", "value"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
 - !private ["ST", "count"]
 - ["So10FIRStorageC", "reference"]
 - ["So10FIRStorageC", "storage"]
-- ["So19FIRStorageReferenceC", "init"]
+- !private ["So19FIRStorageReferenceC", "child"]
+- !private ["So19FIRStorageReferenceC", "downloadURL"]
+- !private ["So19FIRStorageReferenceC", "putData"]
 - !private ["SS", "count"]
 - !private ["Sy", "count"]
 - !private ["s16TextOutputStreamP", "count"]
 - !private ["s20TextOutputStreamableP", "count"]
+- !private ["10Foundation3URLV", "absoluteString"]
 - !private ["So7FIRUserC", "uid"]
 - !private ["So11FIRUserInfoP", "uid"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteString"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "count"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
 - !private ["s19_HasContiguousBytesP", "count"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
@@ -258,10 +278,11 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "createUser"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "currentUser"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "database"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "downloadURL"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "exists"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "observe"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "observeSingleEvent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "putData"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "queryEqual"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "queryOrdered"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "reference"]
@@ -271,6 +292,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "uid"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "updateChildValues"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "user"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 depends-nominal:
 - !private "So7FIRAuthC"
@@ -311,19 +333,22 @@ depends-nominal:
 - !private "So8NSStringC"
 - !private "Sm"
 - !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
 - !private "ST"
 - "So10FIRStorageC"
-- "So19FIRStorageReferenceC"
+- !private "So19FIRStorageReferenceC"
 - !private "SS"
 - !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
 - !private "So7FIRUserC"
 - !private "So11FIRUserInfoP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
@@ -469,17 +494,17 @@ depends-external:
 - "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "779f72b2bf0f9eb931c57ee0926b11d4"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a882b1e1e6b84bd12c34024f9d8cadc3"
