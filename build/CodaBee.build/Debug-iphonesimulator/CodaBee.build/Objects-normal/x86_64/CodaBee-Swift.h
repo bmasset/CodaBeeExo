@@ -257,6 +257,19 @@ SWIFT_CLASS("_TtC7CodaBee15ForumController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+@interface ForumController (SWIFT_EXTENSION(CodaBee)) <UISearchBarDelegate>
+- (void)searchBarSearchButtonClicked:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
+@end
+
+
+@interface ForumController (SWIFT_EXTENSION(CodaBee)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class UIImage;
 
 SWIFT_CLASS("_TtC7CodaBee16LoadingImageView")
@@ -378,6 +391,15 @@ SWIFT_CLASS("_TtC7CodaBee17ProfileController")
 @interface ProfileController (SWIFT_EXTENSION(CodaBee)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 - (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
 - (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
+@end
+
+
+SWIFT_CLASS("_TtC7CodaBee12QuestionCell")
+@interface QuestionCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dateLbl;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified questionLbl;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class NSXMLParser;

@@ -1,11 +1,11 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "6a1864d6e8c436c39f921c394d861f26"
-build_time: [1565126094, 655804000]
+build_time: [1565180759, 554856000]
 inputs:
-  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/FirebaseHelper.swift": [1565022109, 373510824]
+  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/FirebaseHelper.swift": [1565126512, 457641813]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/TableViewCell/MenuCell.swift": [1563890443, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/BeeUser.swift": [1564663199, 0]
-  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Forum/ForumController.swift": [1565112910, 187465440]
+  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Forum/ForumController.swift": [1565179299, 845623820]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/AlertHelper.swift": [1564585835, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Ressources/Constantes.swift": [1564321036, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Actus/WebControllerBis.swift": [1564331782, 0]
@@ -31,4 +31,5 @@ inputs:
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Models/Video.swift": [1564218677, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/RoundIV.swift": [1563899103, 0]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Controllers/Actus/WebController.swift": [1564330081, 0]
+  "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/TableViewCell/QuestionCell.swift": [1565168981, 824243634]
   "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/CodaBee/Views/TableViewCell/VideoCell.swift": [1564232919, 0]

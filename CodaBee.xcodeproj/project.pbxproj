@@ -35,7 +35,7 @@
 		64486D5C22F8662D00418CF8 /* Forum.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64486D5B22F8662D00418CF8 /* Forum.storyboard */; };
 		64486D5E22F8663D00418CF8 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64486D5D22F8663D00418CF8 /* Menu.storyboard */; };
 		64486D6022F8665900418CF8 /* Actus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64486D5F22F8665900418CF8 /* Actus.storyboard */; };
-		64ABFCC322FA25A000B69512 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64ABFCC222FA259F00B69512 /* Info.plist */; };
+		6481B8F622FABDCB002AD02B /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6481B8F522FABDCB002AD02B /* QuestionCell.swift */; };
 		64FB7B2122F9E46800C3484B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB7B2022F9E46800C3484B /* Question.swift */; };
 		A111303622ECBD86000F574A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111303522ECBD86000F574A /* API.swift */; };
 		A111303822ECBD93000F574A /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111303722ECBD93000F574A /* Constantes.swift */; };
@@ -80,6 +80,7 @@
 		64486D5B22F8662D00418CF8 /* Forum.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Forum.storyboard; sourceTree = "<group>"; };
 		64486D5D22F8663D00418CF8 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		64486D5F22F8665900418CF8 /* Actus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Actus.storyboard; path = CodaBee/Storyboards/Actus.storyboard; sourceTree = SOURCE_ROOT; };
+		6481B8F522FABDCB002AD02B /* QuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
 		64ABFCC222FA259F00B69512 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64FB7B2022F9E46800C3484B /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		80E68F8B15311E451E88DD5D /* Pods-CodaBee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodaBee.release.xcconfig"; path = "Target Support Files/Pods-CodaBee/Pods-CodaBee.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +146,7 @@
 			children = (
 				64486D3B22F8498F00418CF8 /* MenuCell.swift */,
 				64486D3D22F8499A00418CF8 /* VideoCell.swift */,
+				6481B8F522FABDCB002AD02B /* QuestionCell.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -309,7 +311,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Bernard Masset";
 				TargetAttributes = {
 					A1FF639F22E304C200B2BAA8 = {
@@ -342,7 +344,6 @@
 			files = (
 				64486D5C22F8662D00418CF8 /* Forum.storyboard in Resources */,
 				A1BF009F22EF0AE600DA4F0D /* GoogleService-Info.plist in Resources */,
-				64ABFCC322FA25A000B69512 /* Info.plist in Resources */,
 				64486D5E22F8663D00418CF8 /* Menu.storyboard in Resources */,
 				A1FF63AE22E304C500B2BAA8 /* LaunchScreen.storyboard in Resources */,
 				A1FF63AB22E304C500B2BAA8 /* Assets.xcassets in Resources */,
@@ -430,6 +431,7 @@
 				64486D5A22F865FC00418CF8 /* Video.swift in Sources */,
 				64486D3A22F8497800418CF8 /* RoundIV.swift in Sources */,
 				64486D5022F84A9B00418CF8 /* WebController.swift in Sources */,
+				6481B8F622FABDCB002AD02B /* QuestionCell.swift in Sources */,
 				64486D3E22F8499A00418CF8 /* VideoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

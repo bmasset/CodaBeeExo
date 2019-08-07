@@ -14,7 +14,6 @@ depends-top-level:
 - "DataSnapshot"
 - "DatabaseReference"
 - "String"
-- !private "StringLiteralType"
 depends-member:
 - ["7CodaBee0B4UserC", "DataSnapshot"]
 - ["7CodaBee0B4UserC", "DatabaseReference"]
@@ -23,6 +22,7 @@ depends-member:
 - !private ["7CodaBee0B4UserC", "_imageUrl"]
 - !private ["7CodaBee0B4UserC", "_ref"]
 - !private ["7CodaBee0B4UserC", "_username"]
+- ["7CodaBee0B4UserC", "deinit"]
 - ["7CodaBee0B4UserC", "id"]
 - ["7CodaBee0B4UserC", "imageUrl"]
 - ["7CodaBee0B4UserC", "init"]
