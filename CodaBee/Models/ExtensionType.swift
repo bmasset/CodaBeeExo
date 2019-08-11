@@ -6,7 +6,7 @@
 //  Copyright © 2019 Bernard Masset. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension String {
     
@@ -56,5 +56,22 @@ extension String {
             return base
         }
         return "A l'instant."
+    }
+    
+    func height(_ width: CGFloat, font: UIFont) -> CGFloat {
+        let size = CGSize(width: width, height: .greatestFiniteMagnitude)
+        let options = NSStringDrawingOptions.usesFontLeading.union(.usesLineFragmentOrigin)
+        let boundingBox = NSString(string: self).boundingRect(with: size, options: options, attributes: [.font: font], context: nil)
+        return boundingBox.height
+    }
+}
+
+extension Date {
+    
+    func toString() -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = DATE_FORMAT
+        formatter.locale = Locale(identifier: LOCALE)
+        return formatter.string(from: self)
     }
 }

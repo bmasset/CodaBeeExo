@@ -210,6 +210,80 @@ SWIFT_CLASS("_TtC7CodaBee15ActusController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class RoundIV;
+@class UILabel;
+@class UIImageView;
+
+SWIFT_CLASS("_TtC7CodaBee10AnswerCell")
+@interface AnswerCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet RoundIV * _Null_unspecified profileIV;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dateLbl;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified usernameLbl;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified answerLbl;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified answerIV;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7CodaBee18MoveableController")
+@interface MoveableController : UIViewController
+- (void)viewDidLoad;
+- (void)showKeyWithNotification:(NSNotification * _Nonnull)notification;
+- (void)hideKeyWithNotification:(NSNotification * _Nonnull)notification;
+- (void)tap;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIView;
+@class UITextView;
+@class UIButton;
+@class NSLayoutConstraint;
+
+SWIFT_CLASS("_TtC7CodaBee16AnswerController")
+@interface AnswerController : MoveableController
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified topView;
+@property (nonatomic, weak) IBOutlet RoundIV * _Null_unspecified profiIV;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dateLbl;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified usernameLbl;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified questionLbl;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified zoneDeTexteView;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified textView;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified cameraBtn;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified libraryBtn;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified leadingConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified heightConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified bottomConstraint;
+- (void)viewDidLoad;
+- (void)showKeyWithNotification:(NSNotification * _Nonnull)notification;
+- (void)hideKeyWithNotification:(NSNotification * _Nonnull)notification;
+- (IBAction)libraryPressed:(id _Nonnull)sender;
+- (IBAction)cameraPressed:(id _Nonnull)sender;
+- (IBAction)validatePressed:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImagePickerController;
+
+@interface AnswerController (SWIFT_EXTENSION(CodaBee)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
+- (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
+@end
+
+
+@interface AnswerController (SWIFT_EXTENSION(CodaBee)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface AnswerController (SWIFT_EXTENSION(CodaBee)) <UITextViewDelegate>
+- (void)textViewDidChange:(UITextView * _Nonnull)textView;
+@end
+
 @class UIWindow;
 @class UIApplication;
 
@@ -225,8 +299,6 @@ SWIFT_CLASS("_TtC7CodaBee11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImageView;
-@class UILabel;
 
 SWIFT_CLASS("_TtC7CodaBee11ArticleCell")
 @interface ArticleCell : UITableViewCell
@@ -268,6 +340,8 @@ SWIFT_CLASS("_TtC7CodaBee15ForumController")
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 @end
 
 @class UIImage;
@@ -280,21 +354,8 @@ SWIFT_CLASS("_TtC7CodaBee16LoadingImageView")
 - (nonnull instancetype)initWithImage:(UIImage * _Nullable)image highlightedImage:(UIImage * _Nullable)highlightedImage SWIFT_UNAVAILABLE;
 @end
 
-
-SWIFT_CLASS("_TtC7CodaBee18MoveableController")
-@interface MoveableController : UIViewController
-- (void)viewDidLoad;
-- (void)showKeyWithNotification:(NSNotification * _Nonnull)notification;
-- (void)hideKeyWithNotification:(NSNotification * _Nonnull)notification;
-- (void)tap;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class UISegmentedControl;
 @class UITextField;
-@class UIButton;
-@class NSLayoutConstraint;
 @class UIBarButtonItem;
 
 SWIFT_CLASS("_TtC7CodaBee13LogController")
@@ -327,7 +388,6 @@ SWIFT_CLASS("_TtC7CodaBee8MenuCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class RoundIV;
 
 SWIFT_CLASS("_TtC7CodaBee14MenuController")
 @interface MenuController : MenuViewController
@@ -386,7 +446,6 @@ SWIFT_CLASS("_TtC7CodaBee17ProfileController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImagePickerController;
 
 @interface ProfileController (SWIFT_EXTENSION(CodaBee)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 - (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;

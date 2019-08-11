@@ -25,10 +25,18 @@ class ForumController: UIViewController, SideMenuItemContent {
         tableView.dataSource = self
         searchBar.delegate  = self
         tableView.setup(color: HONEY_COLOR)
+        
+        FirebaseHelper().getQuestion { (q) in
+            DispatchQueue.main.async {
+                self.questions.append(q)
+                self.tableView.reloadData()
+            }
+        }
     }
     
 
     @IBAction func addQuestion(_ sender: Any) {
+        AlertHelper().askQuestion(self)
     }
     
     @IBAction func showMenu(_ sender: Any) {
@@ -52,9 +60,25 @@ extension ForumController:UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
+        let question = getQuestion(indexPath)
+        let height = question.questionString.height(tableView.frame.width - 40, font: UIFont.systemFont(ofSize: 20))
+        return 100 + height
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let question = getQuestion(indexPath)
+        performSegue(withIdentifier: "Answer", sender: question)
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "Answer" {
+            if let controller = segue.destination as? AnswerController {
+                controller.question = sender as? Question
+            }
+            
+        }
+    }
+    
     func getQuestion(_ indexPath: IndexPath) -> Question {
         if tri {
             return questionsTriees[indexPath.row]
@@ -79,5 +103,6 @@ extension ForumController: UISearchBarDelegate {
         } else {
             tri = false
         }
+        tableView.reloadData()
     }
 }

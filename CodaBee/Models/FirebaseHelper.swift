@@ -105,11 +105,70 @@ class FirebaseHelper {
         }
     }
     
+    func saveQuestion(_ string:String) {
+        guard let id = connecte() else { return }
+        let dict: [String:String] = [
+            "userId": id,
+            "questionString": string,
+            "date": Date().toString()
+        ]
+        _databaseQuestion.childByAutoId().updateChildValues(dict)
+    }
+    
+    func getQuestion(completion: ((Question)-> Void)?) {
+        _databaseQuestion.observe(.childAdded) { (data) in
+            if let dict = data.value as? [String: Any] {
+                if let date = dict["date"] as? String {
+                    if let userId = dict["userId"] as? String {
+                        if let str = dict["questionString"] as? String {
+                            let new = Question(ref: data.ref, id: data.key, date: date, userId: userId, questionString: str)
+                            completion?(new)
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    func saveAnswer(ref: DatabaseReference,texte: String?, image: String?, height: CGFloat?) {
+        guard let id = connecte() else { return }
+        var dict: [String: Any] = [
+            "userId": id,
+            "date": Date().toString()
+        ]
+        if texte != nil {
+            dict["texte"] = texte!
+        }
+        if image != nil {
+            dict["imageUrl"] = image!
+        }
+        if height != nil {
+            dict["height"] = height!
+        }
+        ref.child("answers").childByAutoId().updateChildValues(dict)
+    }
+    
+    func getAnswer(ref: DatabaseReference, completion: ((Answer) -> Void)?) {
+        ref.child("Answers").observe(.childAdded) { (data) in
+            if let dict = data.value as? [String: Any] {
+                if let userId = dict["userId"] as? String {
+                    let answer = Answer(userId: userId, data: data)
+                    completion?(answer)
+                }
+            }
+        }
+    }
+    
+
     // Storage
     
     private let _storage = Storage.storage().reference()
     private var _storageUser: StorageReference {
         return _storage.child("users")
+    }
+    
+    private var _storageAnswers:StorageReference {
+        return _storage.child("answers")
     }
     
     func addProfilePicture(_ data: Data) {
@@ -123,6 +182,25 @@ class FirebaseHelper {
                     }
                 })
             }
+        }
+    }
+    
+    func addImageAnswer(data: Data, completion: ((String?) -> Void)?) {
+        let uniqueId = UUID().uuidString
+        let ref = _storageAnswers.child(uniqueId)
+        ref.putData(data, metadata: nil) { (meta, error) in
+            if error != nil {
+                completion?(nil)
+            } else {
+                ref.downloadURL(completion: { (url, error) in
+                    if error == nil, let urlString = url?.absoluteString {
+                        completion?(urlString)
+                    } else {
+                        completion?(nil)
+                    }
+                })
+            }
+            
         }
     }
 }

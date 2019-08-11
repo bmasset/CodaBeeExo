@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Modules"
+    'name': "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18, 19, 20 Codabee/CodaBee/build/Debug-iphonesimulator/InteractiveSideMenu/InteractiveSideMenu.framework/Modules"
     'contents': [{
       'type': 'file',
       'name': "module.modulemap",
-      'external-contents': "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18 Codabee/CodaBee/build/Pods.build/Debug-iphonesimulator/InteractiveSideMenu.build/unextended-module.modulemap",
+      'external-contents': "/Users/bmasset/Documents/Mes programmes/Cours Swift/Cours Ios/18, 19, 20 Codabee/CodaBee/build/Pods.build/Debug-iphonesimulator/InteractiveSideMenu.build/unextended-module.modulemap",
     }]
   }]
 }
